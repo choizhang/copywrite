@@ -1,0 +1,479 @@
+2020-04-08 22:37:56,709 INFO 67404 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 22:37:56,736 INFO 67404 [egg-multipart] stream mode enable
+2020-04-08 22:37:56,791 INFO 67404 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 22:37:56,794 INFO 67404 [egg-security] use csrf middleware
+2020-04-08 22:37:56,795 INFO 67404 [egg-security] use methodnoallow middleware
+2020-04-08 22:37:56,795 INFO 67404 [egg-security] use noopen middleware
+2020-04-08 22:37:56,796 INFO 67404 [egg-security] use nosniff middleware
+2020-04-08 22:37:56,797 INFO 67404 [egg-security] use xssProtection middleware
+2020-04-08 22:37:56,797 INFO 67404 [egg-security] use xframe middleware
+2020-04-08 22:37:56,798 INFO 67404 [egg-security] use dta middleware
+2020-04-08 22:37:56,798 INFO 67404 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 22:37:56,806 INFO 67404 [egg:core] dump config after load, 4ms
+2020-04-08 22:37:56,819 INFO 67404 [egg-watcher:application] watcher start success
+2020-04-08 22:37:56,828 INFO 67404 [egg:core] dump config after ready, 7ms
+2020-04-08 22:45:40,753 INFO 67837 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 22:45:40,780 INFO 67837 [egg-multipart] stream mode enable
+2020-04-08 22:45:40,820 INFO 67837 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 22:45:40,822 INFO 67837 [egg-security] use csrf middleware
+2020-04-08 22:45:40,823 INFO 67837 [egg-security] use methodnoallow middleware
+2020-04-08 22:45:40,823 INFO 67837 [egg-security] use noopen middleware
+2020-04-08 22:45:40,824 INFO 67837 [egg-security] use nosniff middleware
+2020-04-08 22:45:40,824 INFO 67837 [egg-security] use xssProtection middleware
+2020-04-08 22:45:40,825 INFO 67837 [egg-security] use xframe middleware
+2020-04-08 22:45:40,825 INFO 67837 [egg-security] use dta middleware
+2020-04-08 22:45:40,825 INFO 67837 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 22:45:40,834 INFO 67837 [egg:core] dump config after load, 5ms
+2020-04-08 22:45:40,845 INFO 67837 [egg-watcher:application] watcher start success
+2020-04-08 22:45:40,851 INFO 67837 [egg:core] dump config after ready, 3ms
+2020-04-08 22:48:29,909 INFO 68055 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 22:48:29,933 INFO 68055 [egg-multipart] stream mode enable
+2020-04-08 22:48:29,972 INFO 68055 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 22:48:29,974 INFO 68055 [egg-security] use csrf middleware
+2020-04-08 22:48:29,974 INFO 68055 [egg-security] use methodnoallow middleware
+2020-04-08 22:48:29,975 INFO 68055 [egg-security] use noopen middleware
+2020-04-08 22:48:29,975 INFO 68055 [egg-security] use nosniff middleware
+2020-04-08 22:48:29,976 INFO 68055 [egg-security] use xssProtection middleware
+2020-04-08 22:48:29,976 INFO 68055 [egg-security] use xframe middleware
+2020-04-08 22:48:29,976 INFO 68055 [egg-security] use dta middleware
+2020-04-08 22:48:29,976 INFO 68055 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 22:48:29,988 INFO 68055 [egg:core] dump config after load, 5ms
+2020-04-08 22:48:30,001 INFO 68055 [egg-watcher:application] watcher start success
+2020-04-08 22:48:30,009 INFO 68055 [egg:core] dump config after ready, 6ms
+2020-04-08 22:52:01,837 WARN 68055 [-/127.0.0.1/-/2ms POST /upload] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-08 22:52:01,839 WARN 68055 [-/127.0.0.1/-/3ms POST /upload] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "missing csrf token"
+pid: 68055
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 22:54:52,298 INFO 68388 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 22:54:52,323 INFO 68388 [egg-multipart] stream mode enable
+2020-04-08 22:54:52,356 INFO 68388 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 22:54:52,358 INFO 68388 [egg-security] use csrf middleware
+2020-04-08 22:54:52,359 INFO 68388 [egg-security] use methodnoallow middleware
+2020-04-08 22:54:52,359 INFO 68388 [egg-security] use noopen middleware
+2020-04-08 22:54:52,360 INFO 68388 [egg-security] use nosniff middleware
+2020-04-08 22:54:52,360 INFO 68388 [egg-security] use xssProtection middleware
+2020-04-08 22:54:52,361 INFO 68388 [egg-security] use xframe middleware
+2020-04-08 22:54:52,361 INFO 68388 [egg-security] use dta middleware
+2020-04-08 22:54:52,361 INFO 68388 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 22:54:52,373 INFO 68388 [egg:core] dump config after load, 5ms
+2020-04-08 22:54:52,390 INFO 68388 [egg-watcher:application] watcher start success
+2020-04-08 22:54:52,402 INFO 68388 [egg:core] dump config after ready, 9ms
+2020-04-08 22:55:06,041 WARN 68388 [-/127.0.0.1/-/5ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-08 22:55:06,042 WARN 68388 [-/127.0.0.1/-/7ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 68388
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 22:56:37,190 INFO 68493 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 22:56:37,213 INFO 68493 [egg-multipart] stream mode enable
+2020-04-08 22:56:37,248 INFO 68493 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 22:56:37,250 INFO 68493 [egg-security] use csrf middleware
+2020-04-08 22:56:37,250 INFO 68493 [egg-security] use methodnoallow middleware
+2020-04-08 22:56:37,251 INFO 68493 [egg-security] use noopen middleware
+2020-04-08 22:56:37,251 INFO 68493 [egg-security] use nosniff middleware
+2020-04-08 22:56:37,251 INFO 68493 [egg-security] use xssProtection middleware
+2020-04-08 22:56:37,252 INFO 68493 [egg-security] use xframe middleware
+2020-04-08 22:56:37,252 INFO 68493 [egg-security] use dta middleware
+2020-04-08 22:56:37,252 INFO 68493 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 22:56:37,263 INFO 68493 [egg:core] dump config after load, 4ms
+2020-04-08 22:56:37,278 INFO 68493 [egg-watcher:application] watcher start success
+2020-04-08 22:56:37,287 INFO 68493 [egg:core] dump config after ready, 7ms
+2020-04-08 22:57:44,986 INFO 68567 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 22:57:45,016 INFO 68567 [egg-multipart] stream mode enable
+2020-04-08 22:57:45,049 INFO 68567 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 22:57:45,051 INFO 68567 [egg-security] use csrf middleware
+2020-04-08 22:57:45,052 INFO 68567 [egg-security] use methodnoallow middleware
+2020-04-08 22:57:45,052 INFO 68567 [egg-security] use noopen middleware
+2020-04-08 22:57:45,053 INFO 68567 [egg-security] use nosniff middleware
+2020-04-08 22:57:45,053 INFO 68567 [egg-security] use xssProtection middleware
+2020-04-08 22:57:45,053 INFO 68567 [egg-security] use xframe middleware
+2020-04-08 22:57:45,054 INFO 68567 [egg-security] use dta middleware
+2020-04-08 22:57:45,054 INFO 68567 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 22:57:45,065 INFO 68567 [egg:core] dump config after load, 5ms
+2020-04-08 22:57:45,078 INFO 68567 [egg-watcher:application] watcher start success
+2020-04-08 22:57:45,083 INFO 68567 [egg:core] dump config after ready, 3ms
+2020-04-08 23:18:34,466 INFO 69414 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:18:34,491 INFO 69414 [egg-multipart] stream mode enable
+2020-04-08 23:18:34,527 INFO 69414 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:18:34,529 INFO 69414 [egg-security] use csrf middleware
+2020-04-08 23:18:34,530 INFO 69414 [egg-security] use methodnoallow middleware
+2020-04-08 23:18:34,530 INFO 69414 [egg-security] use noopen middleware
+2020-04-08 23:18:34,531 INFO 69414 [egg-security] use nosniff middleware
+2020-04-08 23:18:34,531 INFO 69414 [egg-security] use xssProtection middleware
+2020-04-08 23:18:34,531 INFO 69414 [egg-security] use xframe middleware
+2020-04-08 23:18:34,532 INFO 69414 [egg-security] use dta middleware
+2020-04-08 23:18:34,532 INFO 69414 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:18:34,548 INFO 69414 [egg:core] dump config after load, 7ms
+2020-04-08 23:18:34,561 INFO 69414 [egg-watcher:application] watcher start success
+2020-04-08 23:18:34,571 INFO 69414 [egg:core] dump config after ready, 8ms
+2020-04-08 23:18:41,963 INFO 69423 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:18:42,020 INFO 69423 [egg-multipart] stream mode enable
+2020-04-08 23:18:42,063 INFO 69423 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:18:42,066 INFO 69423 [egg-security] use csrf middleware
+2020-04-08 23:18:42,066 INFO 69423 [egg-security] use methodnoallow middleware
+2020-04-08 23:18:42,067 INFO 69423 [egg-security] use noopen middleware
+2020-04-08 23:18:42,067 INFO 69423 [egg-security] use nosniff middleware
+2020-04-08 23:18:42,067 INFO 69423 [egg-security] use xssProtection middleware
+2020-04-08 23:18:42,068 INFO 69423 [egg-security] use xframe middleware
+2020-04-08 23:18:42,068 INFO 69423 [egg-security] use dta middleware
+2020-04-08 23:18:42,068 INFO 69423 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:18:42,085 INFO 69423 [egg:core] dump config after load, 10ms
+2020-04-08 23:18:42,103 INFO 69423 [egg-watcher:application] watcher start success
+2020-04-08 23:18:42,108 INFO 69423 [egg:core] dump config after ready, 3ms
+2020-04-08 23:18:52,589 INFO 69435 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:18:52,618 INFO 69435 [egg-multipart] stream mode enable
+2020-04-08 23:18:52,654 INFO 69435 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:18:52,656 INFO 69435 [egg-security] use csrf middleware
+2020-04-08 23:18:52,656 INFO 69435 [egg-security] use methodnoallow middleware
+2020-04-08 23:18:52,656 INFO 69435 [egg-security] use noopen middleware
+2020-04-08 23:18:52,657 INFO 69435 [egg-security] use nosniff middleware
+2020-04-08 23:18:52,657 INFO 69435 [egg-security] use xssProtection middleware
+2020-04-08 23:18:52,658 INFO 69435 [egg-security] use xframe middleware
+2020-04-08 23:18:52,658 INFO 69435 [egg-security] use dta middleware
+2020-04-08 23:18:52,658 INFO 69435 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:18:52,669 INFO 69435 [egg:core] dump config after load, 4ms
+2020-04-08 23:18:52,680 INFO 69435 [egg-watcher:application] watcher start success
+2020-04-08 23:18:52,688 INFO 69435 [egg:core] dump config after ready, 6ms
+2020-04-08 23:19:11,060 INFO 69459 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:19:11,094 INFO 69459 [egg-multipart] stream mode enable
+2020-04-08 23:19:11,133 INFO 69459 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:19:11,135 INFO 69459 [egg-security] use csrf middleware
+2020-04-08 23:19:11,136 INFO 69459 [egg-security] use methodnoallow middleware
+2020-04-08 23:19:11,136 INFO 69459 [egg-security] use noopen middleware
+2020-04-08 23:19:11,137 INFO 69459 [egg-security] use nosniff middleware
+2020-04-08 23:19:11,137 INFO 69459 [egg-security] use xssProtection middleware
+2020-04-08 23:19:11,138 INFO 69459 [egg-security] use xframe middleware
+2020-04-08 23:19:11,138 INFO 69459 [egg-security] use dta middleware
+2020-04-08 23:19:11,138 INFO 69459 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:19:11,152 INFO 69459 [egg:core] dump config after load, 7ms
+2020-04-08 23:19:11,169 INFO 69459 [egg-watcher:application] watcher start success
+2020-04-08 23:19:11,183 INFO 69459 [egg:core] dump config after ready, 9ms
+2020-04-08 23:19:31,949 INFO 69471 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:19:31,976 INFO 69471 [egg-multipart] stream mode enable
+2020-04-08 23:19:32,021 INFO 69471 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:19:32,023 INFO 69471 [egg-security] use csrf middleware
+2020-04-08 23:19:32,023 INFO 69471 [egg-security] use methodnoallow middleware
+2020-04-08 23:19:32,024 INFO 69471 [egg-security] use noopen middleware
+2020-04-08 23:19:32,024 INFO 69471 [egg-security] use nosniff middleware
+2020-04-08 23:19:32,024 INFO 69471 [egg-security] use xssProtection middleware
+2020-04-08 23:19:32,025 INFO 69471 [egg-security] use xframe middleware
+2020-04-08 23:19:32,025 INFO 69471 [egg-security] use dta middleware
+2020-04-08 23:19:32,025 INFO 69471 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:19:32,042 INFO 69471 [egg:core] dump config after load, 9ms
+2020-04-08 23:19:32,055 INFO 69471 [egg-watcher:application] watcher start success
+2020-04-08 23:19:32,064 INFO 69471 [egg:core] dump config after ready, 7ms
+2020-04-08 23:24:03,396 INFO 69668 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:24:03,425 INFO 69668 [egg-multipart] stream mode enable
+2020-04-08 23:24:03,462 INFO 69668 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:24:03,465 INFO 69668 [egg-security] use csrf middleware
+2020-04-08 23:24:03,466 INFO 69668 [egg-security] use methodnoallow middleware
+2020-04-08 23:24:03,466 INFO 69668 [egg-security] use noopen middleware
+2020-04-08 23:24:03,467 INFO 69668 [egg-security] use nosniff middleware
+2020-04-08 23:24:03,468 INFO 69668 [egg-security] use xssProtection middleware
+2020-04-08 23:24:03,468 INFO 69668 [egg-security] use xframe middleware
+2020-04-08 23:24:03,469 INFO 69668 [egg-security] use dta middleware
+2020-04-08 23:24:03,469 INFO 69668 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:24:03,482 INFO 69668 [egg:core] dump config after load, 4ms
+2020-04-08 23:24:03,497 INFO 69668 [egg-watcher:application] watcher start success
+2020-04-08 23:24:03,503 INFO 69668 [egg:core] dump config after ready, 4ms
+2020-04-08 23:24:09,013 INFO 69685 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:24:09,049 INFO 69685 [egg-multipart] stream mode enable
+2020-04-08 23:24:09,087 INFO 69685 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:24:09,089 INFO 69685 [egg-security] use csrf middleware
+2020-04-08 23:24:09,090 INFO 69685 [egg-security] use methodnoallow middleware
+2020-04-08 23:24:09,090 INFO 69685 [egg-security] use noopen middleware
+2020-04-08 23:24:09,090 INFO 69685 [egg-security] use nosniff middleware
+2020-04-08 23:24:09,091 INFO 69685 [egg-security] use xssProtection middleware
+2020-04-08 23:24:09,091 INFO 69685 [egg-security] use xframe middleware
+2020-04-08 23:24:09,091 INFO 69685 [egg-security] use dta middleware
+2020-04-08 23:24:09,091 INFO 69685 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:24:09,102 INFO 69685 [egg:core] dump config after load, 4ms
+2020-04-08 23:24:09,112 INFO 69685 [egg-watcher:application] watcher start success
+2020-04-08 23:24:09,118 INFO 69685 [egg:core] dump config after ready, 3ms
+2020-04-08 23:24:24,547 ERROR 69685 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/choizhang/copywriting/egg/app/view/home.html
+    at ContextView.[contextView#render] (/Users/choizhang/copywriting/egg/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 69685
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:38:10,327 INFO 70240 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:38:10,365 INFO 70240 [egg-multipart] stream mode enable
+2020-04-08 23:38:10,402 INFO 70240 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:38:10,404 INFO 70240 [egg-security] use csrf middleware
+2020-04-08 23:38:10,405 INFO 70240 [egg-security] use methodnoallow middleware
+2020-04-08 23:38:10,405 INFO 70240 [egg-security] use noopen middleware
+2020-04-08 23:38:10,406 INFO 70240 [egg-security] use nosniff middleware
+2020-04-08 23:38:10,406 INFO 70240 [egg-security] use xssProtection middleware
+2020-04-08 23:38:10,406 INFO 70240 [egg-security] use xframe middleware
+2020-04-08 23:38:10,407 INFO 70240 [egg-security] use dta middleware
+2020-04-08 23:38:10,407 INFO 70240 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:38:10,419 INFO 70240 [egg:core] dump config after load, 4ms
+2020-04-08 23:38:10,429 INFO 70240 [egg-watcher:application] watcher start success
+2020-04-08 23:38:10,439 INFO 70240 [egg:core] dump config after ready, 8ms
+2020-04-08 23:38:33,057 INFO 70278 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:38:33,082 INFO 70278 [egg-multipart] stream mode enable
+2020-04-08 23:38:33,121 INFO 70278 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:38:33,123 INFO 70278 [egg-security] use csrf middleware
+2020-04-08 23:38:33,124 INFO 70278 [egg-security] use methodnoallow middleware
+2020-04-08 23:38:33,124 INFO 70278 [egg-security] use noopen middleware
+2020-04-08 23:38:33,125 INFO 70278 [egg-security] use nosniff middleware
+2020-04-08 23:38:33,125 INFO 70278 [egg-security] use xssProtection middleware
+2020-04-08 23:38:33,125 INFO 70278 [egg-security] use xframe middleware
+2020-04-08 23:38:33,126 INFO 70278 [egg-security] use dta middleware
+2020-04-08 23:38:33,126 INFO 70278 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:38:33,139 INFO 70278 [egg:core] dump config after load, 5ms
+2020-04-08 23:38:33,152 INFO 70278 [egg-watcher:application] watcher start success
+2020-04-08 23:38:33,159 INFO 70278 [egg:core] dump config after ready, 5ms
+2020-04-08 23:39:11,129 INFO 70311 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:39:11,159 INFO 70311 [egg-multipart] stream mode enable
+2020-04-08 23:39:11,196 INFO 70311 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:39:11,199 INFO 70311 [egg-security] use csrf middleware
+2020-04-08 23:39:11,199 INFO 70311 [egg-security] use methodnoallow middleware
+2020-04-08 23:39:11,199 INFO 70311 [egg-security] use noopen middleware
+2020-04-08 23:39:11,200 INFO 70311 [egg-security] use nosniff middleware
+2020-04-08 23:39:11,200 INFO 70311 [egg-security] use xssProtection middleware
+2020-04-08 23:39:11,200 INFO 70311 [egg-security] use xframe middleware
+2020-04-08 23:39:11,201 INFO 70311 [egg-security] use dta middleware
+2020-04-08 23:39:11,201 INFO 70311 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:39:11,214 INFO 70311 [egg:core] dump config after load, 6ms
+2020-04-08 23:39:11,230 INFO 70311 [egg-watcher:application] watcher start success
+2020-04-08 23:39:11,242 INFO 70311 [egg:core] dump config after ready, 9ms
+2020-04-08 23:44:06,483 INFO 70522 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:44:06,507 INFO 70522 [egg-multipart] stream mode enable
+2020-04-08 23:44:06,547 INFO 70522 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:44:06,550 INFO 70522 [egg-security] use csrf middleware
+2020-04-08 23:44:06,551 INFO 70522 [egg-security] use methodnoallow middleware
+2020-04-08 23:44:06,551 INFO 70522 [egg-security] use noopen middleware
+2020-04-08 23:44:06,552 INFO 70522 [egg-security] use nosniff middleware
+2020-04-08 23:44:06,552 INFO 70522 [egg-security] use xssProtection middleware
+2020-04-08 23:44:06,552 INFO 70522 [egg-security] use dta middleware
+2020-04-08 23:44:06,552 INFO 70522 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 23:44:06,566 INFO 70522 [egg:core] dump config after load, 5ms
+2020-04-08 23:44:06,576 INFO 70522 [egg-watcher:application] watcher start success
+2020-04-08 23:44:06,585 INFO 70522 [egg:core] dump config after ready, 7ms
+2020-04-08 23:44:25,537 WARN 70522 [-/127.0.0.1/-/7ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-08 23:44:25,540 WARN 70522 [-/127.0.0.1/-/9ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 70522
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:44:50,205 INFO 70569 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:44:50,296 INFO 70569 [egg-multipart] stream mode enable
+2020-04-08 23:44:50,342 INFO 70569 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:44:50,345 INFO 70569 [egg-security] use csrf middleware
+2020-04-08 23:44:50,346 INFO 70569 [egg-security] use methodnoallow middleware
+2020-04-08 23:44:50,346 INFO 70569 [egg-security] use noopen middleware
+2020-04-08 23:44:50,347 INFO 70569 [egg-security] use nosniff middleware
+2020-04-08 23:44:50,347 INFO 70569 [egg-security] use xssProtection middleware
+2020-04-08 23:44:50,348 INFO 70569 [egg-security] use xframe middleware
+2020-04-08 23:44:50,348 INFO 70569 [egg-security] use dta middleware
+2020-04-08 23:44:50,348 INFO 70569 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:44:50,367 INFO 70569 [egg:core] dump config after load, 9ms
+2020-04-08 23:44:50,384 INFO 70569 [egg-watcher:application] watcher start success
+2020-04-08 23:44:50,400 INFO 70569 [egg:core] dump config after ready, 12ms
+2020-04-08 23:47:25,692 INFO 70680 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:47:25,717 INFO 70680 [egg-multipart] stream mode enable
+2020-04-08 23:47:25,753 INFO 70680 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:47:25,755 INFO 70680 [egg-security] use csrf middleware
+2020-04-08 23:47:25,755 INFO 70680 [egg-security] use methodnoallow middleware
+2020-04-08 23:47:25,756 INFO 70680 [egg-security] use noopen middleware
+2020-04-08 23:47:25,756 INFO 70680 [egg-security] use nosniff middleware
+2020-04-08 23:47:25,757 INFO 70680 [egg-security] use xssProtection middleware
+2020-04-08 23:47:25,757 INFO 70680 [egg-security] use xframe middleware
+2020-04-08 23:47:25,757 INFO 70680 [egg-security] use dta middleware
+2020-04-08 23:47:25,757 INFO 70680 [egg-security] compose 7 middlewares into one security middleware
+2020-04-08 23:47:25,777 INFO 70680 [egg:core] dump config after load, 8ms
+2020-04-08 23:47:25,793 INFO 70680 [egg-watcher:application] watcher start success
+2020-04-08 23:47:25,799 INFO 70680 [egg:core] dump config after ready, 4ms
+2020-04-08 23:48:12,369 INFO 70709 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:48:12,397 INFO 70709 [egg-multipart] stream mode enable
+2020-04-08 23:48:12,439 INFO 70709 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:48:12,442 INFO 70709 [egg-security] use csrf middleware
+2020-04-08 23:48:12,443 INFO 70709 [egg-security] use methodnoallow middleware
+2020-04-08 23:48:12,443 INFO 70709 [egg-security] use noopen middleware
+2020-04-08 23:48:12,443 INFO 70709 [egg-security] use nosniff middleware
+2020-04-08 23:48:12,444 INFO 70709 [egg-security] use xssProtection middleware
+2020-04-08 23:48:12,444 INFO 70709 [egg-security] use dta middleware
+2020-04-08 23:48:12,444 INFO 70709 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 23:48:12,459 INFO 70709 [egg:core] dump config after load, 7ms
+2020-04-08 23:48:12,473 INFO 70709 [egg-watcher:application] watcher start success
+2020-04-08 23:48:12,478 INFO 70709 [egg:core] dump config after ready, 3ms
+2020-04-08 23:48:26,083 INFO 70759 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:48:26,106 INFO 70759 [egg-multipart] stream mode enable
+2020-04-08 23:48:26,140 INFO 70759 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:48:26,142 INFO 70759 [egg-security] use csrf middleware
+2020-04-08 23:48:26,142 INFO 70759 [egg-security] use methodnoallow middleware
+2020-04-08 23:48:26,143 INFO 70759 [egg-security] use noopen middleware
+2020-04-08 23:48:26,143 INFO 70759 [egg-security] use nosniff middleware
+2020-04-08 23:48:26,143 INFO 70759 [egg-security] use xssProtection middleware
+2020-04-08 23:48:26,144 INFO 70759 [egg-security] use dta middleware
+2020-04-08 23:48:26,144 INFO 70759 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 23:48:26,157 INFO 70759 [egg:core] dump config after load, 7ms
+2020-04-08 23:48:26,170 INFO 70759 [egg-watcher:application] watcher start success
+2020-04-08 23:48:26,179 INFO 70759 [egg:core] dump config after ready, 7ms
+2020-04-08 23:48:45,147 WARN 70759 [-/127.0.0.1/-/7ms POST /upload] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-08 23:48:45,149 WARN 70759 [-/127.0.0.1/-/10ms POST /upload] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 70759
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:49:00,700 WARN 70759 [-/127.0.0.1/-/1ms POST /add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-08 23:49:00,701 WARN 70759 [-/127.0.0.1/-/2ms POST /add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 70759
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:49:17,584 WARN 70759 [-/127.0.0.1/-/0ms POST /add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-08 23:49:17,585 WARN 70759 [-/127.0.0.1/-/0ms POST /add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 70759
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:50:21,299 INFO 70869 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:50:21,322 INFO 70869 [egg-multipart] stream mode enable
+2020-04-08 23:50:21,358 INFO 70869 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:50:21,360 INFO 70869 [egg-security] use csrf middleware
+2020-04-08 23:50:21,361 INFO 70869 [egg-security] use methodnoallow middleware
+2020-04-08 23:50:21,361 INFO 70869 [egg-security] use noopen middleware
+2020-04-08 23:50:21,362 INFO 70869 [egg-security] use nosniff middleware
+2020-04-08 23:50:21,362 INFO 70869 [egg-security] use xssProtection middleware
+2020-04-08 23:50:21,362 INFO 70869 [egg-security] use dta middleware
+2020-04-08 23:50:21,362 INFO 70869 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 23:50:21,377 INFO 70869 [egg:core] dump config after load, 7ms
+2020-04-08 23:50:21,389 INFO 70869 [egg-watcher:application] watcher start success
+2020-04-08 23:50:21,398 INFO 70869 [egg:core] dump config after ready, 7ms
+2020-04-08 23:50:31,223 WARN 70869 [-/127.0.0.1/-/5ms POST /add] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-08 23:50:31,225 WARN 70869 [-/127.0.0.1/-/7ms POST /add] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:162:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+message: "invalid csrf token"
+pid: 70869
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:50:44,381 ERROR 70869 [-/127.0.0.1/-/4ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/choizhang/copywriting/egg/app/view/home.html
+    at ContextView.[contextView#render] (/Users/choizhang/copywriting/egg/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 70869
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:51:12,977 INFO 70906 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-08 23:51:13,001 INFO 70906 [egg-multipart] stream mode enable
+2020-04-08 23:51:13,035 INFO 70906 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-08 23:51:13,037 INFO 70906 [egg-security] use csrf middleware
+2020-04-08 23:51:13,037 INFO 70906 [egg-security] use methodnoallow middleware
+2020-04-08 23:51:13,037 INFO 70906 [egg-security] use noopen middleware
+2020-04-08 23:51:13,038 INFO 70906 [egg-security] use nosniff middleware
+2020-04-08 23:51:13,038 INFO 70906 [egg-security] use xssProtection middleware
+2020-04-08 23:51:13,038 INFO 70906 [egg-security] use dta middleware
+2020-04-08 23:51:13,038 INFO 70906 [egg-security] compose 6 middlewares into one security middleware
+2020-04-08 23:51:13,049 INFO 70906 [egg:core] dump config after load, 4ms
+2020-04-08 23:51:13,059 INFO 70906 [egg-watcher:application] watcher start success
+2020-04-08 23:51:13,072 INFO 70906 [egg:core] dump config after ready, 11ms
+2020-04-08 23:58:27,524 WARN 70906 [-/127.0.0.1/-/13ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.Error: Invalid filename: 1c��H��-- �.xlsx
+    at checkFile (/Users/choizhang/copywriting/egg/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/choizhang/copywriting/egg/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:182:13)
+    at Busboy.emit (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:182:13)
+    at HeaderParser.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:182:13)
+    at HeaderParser._finish (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 70906
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:58:58,565 ERROR 70906 [-/127.0.0.1/-/7ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/choizhang/copywriting/egg/app/public/uploads/8d401f57a643ca761af4ccce93073ef9.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/choizhang/copywriting/egg/app/public/uploads/8d401f57a643ca761af4ccce93073ef9.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/choizhang/copywriting/egg/app/public/uploads/8d401f57a643ca761af4ccce93073ef9.png"
+name: "ENOENTError"
+pid: 70906
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:59:59,989 INFO 70906 [egg-logrotator] clean all log before 31 days
+2020-04-09 00:00:00,986 INFO 70906 [egg-logrotator] broadcast log-reload
+2020-04-09 00:00:00,986 INFO 70906 [egg-logrotator] rotate files success by DayRotator, files ["/Users/choizhang/copywriting/egg/logs/egg/common-error.log -> /Users/choizhang/copywriting/egg/logs/egg/common-error.log.2020-04-08","/Users/choizhang/copywriting/egg/logs/egg/egg-web.log -> /Users/choizhang/copywriting/egg/logs/egg/egg-web.log.2020-04-08","/Users/choizhang/copywriting/egg/logs/egg/egg-schedule.log -> /Users/choizhang/copywriting/egg/logs/egg/egg-schedule.log.2020-04-08","/Users/choizhang/copywriting/egg/logs/egg/egg-agent.log -> /Users/choizhang/copywriting/egg/logs/egg/egg-agent.log.2020-04-08"]

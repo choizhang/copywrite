@@ -1,0 +1,1295 @@
+2020-04-09 00:00:00,988 INFO 70906 [egg-logrotator] app logger reload: got log-reload message
+2020-04-09 00:00:15,820 WARN 70906 [-/127.0.0.1/-/3ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.Error: Invalid filename: 1c��H��-- �.xlsx
+    at checkFile (/Users/choizhang/copywriting/egg/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/choizhang/copywriting/egg/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:182:13)
+    at Busboy.emit (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:182:13)
+    at HeaderParser.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:182:13)
+    at HeaderParser._finish (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 70906
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 00:01:09,250 WARN 70906 [-/127.0.0.1/-/3ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.Error: Invalid filename: �92018t4.xlsx
+    at checkFile (/Users/choizhang/copywriting/egg/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/choizhang/copywriting/egg/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:182:13)
+    at Busboy.emit (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:182:13)
+    at HeaderParser.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:182:13)
+    at HeaderParser._finish (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 70906
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 00:02:52,397 WARN 70906 [-/127.0.0.1/-/1ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.Error: Invalid filename: test-sc.docx
+    at checkFile (/Users/choizhang/copywriting/egg/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/choizhang/copywriting/egg/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:182:13)
+    at Busboy.emit (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:182:13)
+    at HeaderParser.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:182:13)
+    at HeaderParser._finish (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 70906
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 00:03:51,786 INFO 71438 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:03:51,817 INFO 71438 [egg-multipart] stream mode enable
+2020-04-09 00:03:51,883 INFO 71438 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:03:51,885 INFO 71438 [egg-security] use csrf middleware
+2020-04-09 00:03:51,886 INFO 71438 [egg-security] use methodnoallow middleware
+2020-04-09 00:03:51,886 INFO 71438 [egg-security] use noopen middleware
+2020-04-09 00:03:51,887 INFO 71438 [egg-security] use nosniff middleware
+2020-04-09 00:03:51,887 INFO 71438 [egg-security] use xssProtection middleware
+2020-04-09 00:03:51,888 INFO 71438 [egg-security] use dta middleware
+2020-04-09 00:03:51,888 INFO 71438 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 00:03:51,908 INFO 71438 [egg:core] dump config after load, 9ms
+2020-04-09 00:03:51,923 INFO 71438 [egg-watcher:application] watcher start success
+2020-04-09 00:03:51,931 INFO 71438 [egg:core] dump config after ready, 5ms
+2020-04-09 00:04:09,720 WARN 71438 [-/127.0.0.1/-/25ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.Error: Invalid filename: test-sc.docx
+    at checkFile (/Users/choizhang/copywriting/egg/node_modules/egg-multipart/app.js:76:23)
+    at Busboy.onFile (/Users/choizhang/copywriting/egg/node_modules/co-busboy/index.js:101:17)
+    at Busboy.emit (events.js:182:13)
+    at Busboy.emit (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/main.js:38:33)
+    at PartStream.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/busboy/lib/types/multipart.js:213:13)
+    at PartStream.emit (events.js:182:13)
+    at HeaderParser.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/Dicer.js:51:16)
+    at HeaderParser.emit (events.js:182:13)
+    at HeaderParser._finish (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:68:8)
+    at SBMH.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/dicer/lib/HeaderParser.js:40:12)
+status: 400
+pid: 71438
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 00:07:36,006 INFO 71590 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:07:36,034 INFO 71590 [egg-multipart] stream mode enable
+2020-04-09 00:07:36,101 INFO 71590 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:07:36,103 INFO 71590 [egg-security] use csrf middleware
+2020-04-09 00:07:36,104 INFO 71590 [egg-security] use methodnoallow middleware
+2020-04-09 00:07:36,105 INFO 71590 [egg-security] use noopen middleware
+2020-04-09 00:07:36,105 INFO 71590 [egg-security] use nosniff middleware
+2020-04-09 00:07:36,106 INFO 71590 [egg-security] use xssProtection middleware
+2020-04-09 00:07:36,107 INFO 71590 [egg-security] use dta middleware
+2020-04-09 00:07:36,107 INFO 71590 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 00:07:36,128 INFO 71590 [egg:core] dump config after load, 9ms
+2020-04-09 00:07:36,141 INFO 71590 [egg-watcher:application] watcher start success
+2020-04-09 00:07:36,157 INFO 71590 [egg:core] dump config after ready, 10ms
+2020-04-09 00:07:52,814 INFO 71611 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:07:52,845 INFO 71611 [egg-multipart] stream mode enable
+2020-04-09 00:07:52,900 INFO 71611 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:07:52,904 INFO 71611 [egg-security] use csrf middleware
+2020-04-09 00:07:52,905 INFO 71611 [egg-security] use methodnoallow middleware
+2020-04-09 00:07:52,905 INFO 71611 [egg-security] use noopen middleware
+2020-04-09 00:07:52,906 INFO 71611 [egg-security] use nosniff middleware
+2020-04-09 00:07:52,906 INFO 71611 [egg-security] use xssProtection middleware
+2020-04-09 00:07:52,907 INFO 71611 [egg-security] use dta middleware
+2020-04-09 00:07:52,907 INFO 71611 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 00:07:52,922 INFO 71611 [egg:core] dump config after load, 5ms
+2020-04-09 00:07:52,932 INFO 71611 [egg-watcher:application] watcher start success
+2020-04-09 00:07:52,942 INFO 71611 [egg:core] dump config after ready, 8ms
+2020-04-09 00:09:51,664 INFO 71722 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:09:51,690 INFO 71722 [egg-multipart] stream mode enable
+2020-04-09 00:09:51,748 INFO 71722 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:09:51,752 INFO 71722 [egg-security] use csrf middleware
+2020-04-09 00:09:51,753 INFO 71722 [egg-security] use methodnoallow middleware
+2020-04-09 00:09:51,753 INFO 71722 [egg-security] use noopen middleware
+2020-04-09 00:09:51,754 INFO 71722 [egg-security] use nosniff middleware
+2020-04-09 00:09:51,754 INFO 71722 [egg-security] use xssProtection middleware
+2020-04-09 00:09:51,755 INFO 71722 [egg-security] use dta middleware
+2020-04-09 00:09:51,755 INFO 71722 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 00:09:51,770 INFO 71722 [egg:core] dump config after load, 4ms
+2020-04-09 00:09:51,780 INFO 71722 [egg-watcher:application] watcher start success
+2020-04-09 00:09:51,790 INFO 71722 [egg:core] dump config after ready, 7ms
+2020-04-09 00:10:13,113 INFO 71742 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:10:13,140 INFO 71742 [egg-multipart] stream mode enable
+2020-04-09 00:10:13,178 INFO 71742 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:10:13,180 INFO 71742 [egg-security] use csrf middleware
+2020-04-09 00:10:13,181 INFO 71742 [egg-security] use methodnoallow middleware
+2020-04-09 00:10:13,181 INFO 71742 [egg-security] use noopen middleware
+2020-04-09 00:10:13,182 INFO 71742 [egg-security] use nosniff middleware
+2020-04-09 00:10:13,183 INFO 71742 [egg-security] use xssProtection middleware
+2020-04-09 00:10:13,184 INFO 71742 [egg-security] use xframe middleware
+2020-04-09 00:10:13,185 INFO 71742 [egg-security] use dta middleware
+2020-04-09 00:10:13,185 INFO 71742 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:10:13,199 INFO 71742 [egg:core] dump config after load, 6ms
+2020-04-09 00:10:13,210 INFO 71742 [egg-watcher:application] watcher start success
+2020-04-09 00:10:13,222 INFO 71742 [egg:core] dump config after ready, 9ms
+2020-04-09 00:32:50,379 INFO 72746 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:32:50,403 INFO 72746 [egg-multipart] stream mode enable
+2020-04-09 00:32:50,681 INFO 72746 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:32:50,683 INFO 72746 [egg-security] use csrf middleware
+2020-04-09 00:32:50,683 INFO 72746 [egg-security] use methodnoallow middleware
+2020-04-09 00:32:50,684 INFO 72746 [egg-security] use noopen middleware
+2020-04-09 00:32:50,684 INFO 72746 [egg-security] use nosniff middleware
+2020-04-09 00:32:50,684 INFO 72746 [egg-security] use xssProtection middleware
+2020-04-09 00:32:50,685 INFO 72746 [egg-security] use xframe middleware
+2020-04-09 00:32:50,686 INFO 72746 [egg-security] use dta middleware
+2020-04-09 00:32:50,686 INFO 72746 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:32:50,699 INFO 72746 [egg:core] dump config after load, 4ms
+2020-04-09 00:32:50,713 INFO 72746 [egg-watcher:application] watcher start success
+2020-04-09 00:32:50,719 INFO 72746 [egg:core] dump config after ready, 4ms
+2020-04-09 00:34:08,836 INFO 72809 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:34:08,862 INFO 72809 [egg-multipart] stream mode enable
+2020-04-09 00:34:09,133 INFO 72809 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:34:09,136 INFO 72809 [egg-security] use csrf middleware
+2020-04-09 00:34:09,137 INFO 72809 [egg-security] use methodnoallow middleware
+2020-04-09 00:34:09,137 INFO 72809 [egg-security] use noopen middleware
+2020-04-09 00:34:09,138 INFO 72809 [egg-security] use nosniff middleware
+2020-04-09 00:34:09,138 INFO 72809 [egg-security] use xssProtection middleware
+2020-04-09 00:34:09,138 INFO 72809 [egg-security] use xframe middleware
+2020-04-09 00:34:09,139 INFO 72809 [egg-security] use dta middleware
+2020-04-09 00:34:09,139 INFO 72809 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:34:09,166 INFO 72809 [egg:core] dump config after load, 19ms
+2020-04-09 00:34:09,190 INFO 72809 [egg-watcher:application] watcher start success
+2020-04-09 00:34:09,216 INFO 72809 [egg:core] dump config after ready, 21ms
+2020-04-09 00:34:59,875 INFO 72849 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:34:59,904 INFO 72849 [egg-multipart] stream mode enable
+2020-04-09 00:35:00,194 INFO 72849 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:35:00,197 INFO 72849 [egg-security] use csrf middleware
+2020-04-09 00:35:00,197 INFO 72849 [egg-security] use methodnoallow middleware
+2020-04-09 00:35:00,198 INFO 72849 [egg-security] use noopen middleware
+2020-04-09 00:35:00,198 INFO 72849 [egg-security] use nosniff middleware
+2020-04-09 00:35:00,198 INFO 72849 [egg-security] use xssProtection middleware
+2020-04-09 00:35:00,199 INFO 72849 [egg-security] use xframe middleware
+2020-04-09 00:35:00,199 INFO 72849 [egg-security] use dta middleware
+2020-04-09 00:35:00,199 INFO 72849 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:35:00,214 INFO 72849 [egg:core] dump config after load, 7ms
+2020-04-09 00:35:00,230 INFO 72849 [egg-watcher:application] watcher start success
+2020-04-09 00:35:00,235 INFO 72849 [egg:core] dump config after ready, 3ms
+2020-04-09 00:43:19,472 INFO 73208 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:43:19,503 INFO 73208 [egg-multipart] stream mode enable
+2020-04-09 00:43:20,011 INFO 73208 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:43:20,016 INFO 73208 [egg-security] use csrf middleware
+2020-04-09 00:43:20,017 INFO 73208 [egg-security] use methodnoallow middleware
+2020-04-09 00:43:20,017 INFO 73208 [egg-security] use noopen middleware
+2020-04-09 00:43:20,018 INFO 73208 [egg-security] use nosniff middleware
+2020-04-09 00:43:20,018 INFO 73208 [egg-security] use xssProtection middleware
+2020-04-09 00:43:20,019 INFO 73208 [egg-security] use xframe middleware
+2020-04-09 00:43:20,020 INFO 73208 [egg-security] use dta middleware
+2020-04-09 00:43:20,020 INFO 73208 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:43:20,040 INFO 73208 [egg:core] dump config after load, 4ms
+2020-04-09 00:43:20,059 INFO 73208 [egg-watcher:application] watcher start success
+2020-04-09 00:43:20,072 INFO 73208 [egg:core] dump config after ready, 8ms
+2020-04-09 00:43:25,845 INFO 73217 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:43:25,869 INFO 73217 [egg-multipart] stream mode enable
+2020-04-09 00:43:26,190 INFO 73217 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:43:26,193 INFO 73217 [egg-security] use csrf middleware
+2020-04-09 00:43:26,194 INFO 73217 [egg-security] use methodnoallow middleware
+2020-04-09 00:43:26,195 INFO 73217 [egg-security] use noopen middleware
+2020-04-09 00:43:26,196 INFO 73217 [egg-security] use nosniff middleware
+2020-04-09 00:43:26,196 INFO 73217 [egg-security] use xssProtection middleware
+2020-04-09 00:43:26,197 INFO 73217 [egg-security] use xframe middleware
+2020-04-09 00:43:26,198 INFO 73217 [egg-security] use dta middleware
+2020-04-09 00:43:26,198 INFO 73217 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:43:26,216 INFO 73217 [egg:core] dump config after load, 9ms
+2020-04-09 00:43:26,232 INFO 73217 [egg-watcher:application] watcher start success
+2020-04-09 00:43:26,238 INFO 73217 [egg:core] dump config after ready, 4ms
+2020-04-09 00:44:58,316 INFO 73281 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:44:58,347 INFO 73281 [egg-multipart] stream mode enable
+2020-04-09 00:44:58,676 INFO 73281 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:44:58,680 INFO 73281 [egg-security] use csrf middleware
+2020-04-09 00:44:58,681 INFO 73281 [egg-security] use methodnoallow middleware
+2020-04-09 00:44:58,681 INFO 73281 [egg-security] use noopen middleware
+2020-04-09 00:44:58,681 INFO 73281 [egg-security] use nosniff middleware
+2020-04-09 00:44:58,682 INFO 73281 [egg-security] use xssProtection middleware
+2020-04-09 00:44:58,682 INFO 73281 [egg-security] use xframe middleware
+2020-04-09 00:44:58,683 INFO 73281 [egg-security] use dta middleware
+2020-04-09 00:44:58,683 INFO 73281 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:44:58,701 INFO 73281 [egg:core] dump config after load, 7ms
+2020-04-09 00:44:58,719 INFO 73281 [egg-watcher:application] watcher start success
+2020-04-09 00:44:58,727 INFO 73281 [egg:core] dump config after ready, 5ms
+2020-04-09 00:46:40,557 INFO 73359 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:46:40,581 INFO 73359 [egg-multipart] stream mode enable
+2020-04-09 00:46:40,919 INFO 73359 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:46:40,921 INFO 73359 [egg-security] use csrf middleware
+2020-04-09 00:46:40,922 INFO 73359 [egg-security] use methodnoallow middleware
+2020-04-09 00:46:40,922 INFO 73359 [egg-security] use noopen middleware
+2020-04-09 00:46:40,923 INFO 73359 [egg-security] use nosniff middleware
+2020-04-09 00:46:40,924 INFO 73359 [egg-security] use xssProtection middleware
+2020-04-09 00:46:40,925 INFO 73359 [egg-security] use xframe middleware
+2020-04-09 00:46:40,925 INFO 73359 [egg-security] use dta middleware
+2020-04-09 00:46:40,925 INFO 73359 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:46:40,942 INFO 73359 [egg:core] dump config after load, 9ms
+2020-04-09 00:46:40,965 INFO 73359 [egg-watcher:application] watcher start success
+2020-04-09 00:46:40,977 INFO 73359 [egg:core] dump config after ready, 8ms
+2020-04-09 00:46:43,841 ERROR 73359 [-/127.0.0.1/-/23ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.TypeError: Cannot read property 'uint8array' of undefined
+    at Object.exports.transformTo (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/utils.js:244:38)
+    at ZipEntries.prepareReader (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/zipEntries.js:206:54)
+    at ZipEntries.load (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/zipEntries.js:214:14)
+    at new ZipEntries (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/zipEntries.js:21:14)
+    at JSZip.module.exports [as load] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/load.js:11:18)
+    at new JSZip (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/index.js:39:14)
+    at Object.openArrayBuffer (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mammoth/1.4.9/mammoth/lib/zipfile.js:10:19)
+    at Object.openZip (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mammoth/1.4.9/mammoth/lib/unzip.js:16:41)
+    at convert (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mammoth/1.4.9/mammoth/lib/index.js:34:18)
+    at Object.convertToHtml (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mammoth/1.4.9/mammoth/lib/index.js:22:12)
+    at MammothService.main (/Users/choizhang/copywriting/egg/app/service/mammoth.js:58:8)
+    at UploadController.index (/Users/choizhang/copywriting/egg/app/controller/upload.js:46:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 73359
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 00:47:48,238 INFO 73404 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:47:48,264 INFO 73404 [egg-multipart] stream mode enable
+2020-04-09 00:47:48,530 INFO 73404 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:47:48,532 INFO 73404 [egg-security] use csrf middleware
+2020-04-09 00:47:48,533 INFO 73404 [egg-security] use methodnoallow middleware
+2020-04-09 00:47:48,533 INFO 73404 [egg-security] use noopen middleware
+2020-04-09 00:47:48,534 INFO 73404 [egg-security] use nosniff middleware
+2020-04-09 00:47:48,534 INFO 73404 [egg-security] use xssProtection middleware
+2020-04-09 00:47:48,534 INFO 73404 [egg-security] use xframe middleware
+2020-04-09 00:47:48,535 INFO 73404 [egg-security] use dta middleware
+2020-04-09 00:47:48,535 INFO 73404 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:47:48,550 INFO 73404 [egg:core] dump config after load, 8ms
+2020-04-09 00:47:48,575 INFO 73404 [egg-watcher:application] watcher start success
+2020-04-09 00:47:48,589 INFO 73404 [egg:core] dump config after ready, 11ms
+2020-04-09 00:47:53,623 ERROR 73404 [-/127.0.0.1/-/16ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.TypeError: Cannot read property 'uint8array' of undefined
+    at Object.exports.transformTo (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/utils.js:244:38)
+    at ZipEntries.prepareReader (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/zipEntries.js:206:54)
+    at ZipEntries.load (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/zipEntries.js:214:14)
+    at new ZipEntries (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/zipEntries.js:21:14)
+    at JSZip.module.exports [as load] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/load.js:11:18)
+    at new JSZip (/Users/choizhang/copywriting/egg/node_modules/.npminstall/jszip/2.5.0/jszip/lib/index.js:39:14)
+    at Object.openArrayBuffer (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mammoth/1.4.9/mammoth/lib/zipfile.js:10:19)
+    at Object.openZip (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mammoth/1.4.9/mammoth/lib/unzip.js:16:41)
+    at convert (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mammoth/1.4.9/mammoth/lib/index.js:34:18)
+    at Object.convertToHtml (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mammoth/1.4.9/mammoth/lib/index.js:22:12)
+    at MammothService.main (/Users/choizhang/copywriting/egg/app/service/mammoth.js:58:8)
+    at UploadController.index (/Users/choizhang/copywriting/egg/app/controller/upload.js:46:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 73404
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 00:48:26,940 INFO 73437 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:48:26,966 INFO 73437 [egg-multipart] stream mode enable
+2020-04-09 00:48:27,261 INFO 73437 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:48:27,263 INFO 73437 [egg-security] use csrf middleware
+2020-04-09 00:48:27,264 INFO 73437 [egg-security] use methodnoallow middleware
+2020-04-09 00:48:27,264 INFO 73437 [egg-security] use noopen middleware
+2020-04-09 00:48:27,264 INFO 73437 [egg-security] use nosniff middleware
+2020-04-09 00:48:27,265 INFO 73437 [egg-security] use xssProtection middleware
+2020-04-09 00:48:27,265 INFO 73437 [egg-security] use xframe middleware
+2020-04-09 00:48:27,266 INFO 73437 [egg-security] use dta middleware
+2020-04-09 00:48:27,266 INFO 73437 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:48:27,290 INFO 73437 [egg:core] dump config after load, 11ms
+2020-04-09 00:48:27,319 INFO 73437 [egg-watcher:application] watcher start success
+2020-04-09 00:48:27,327 INFO 73437 [egg:core] dump config after ready, 5ms
+2020-04-09 00:52:40,951 INFO 73618 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:52:40,975 INFO 73618 [egg-multipart] stream mode enable
+2020-04-09 00:52:41,268 INFO 73618 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:52:41,270 INFO 73618 [egg-security] use csrf middleware
+2020-04-09 00:52:41,271 INFO 73618 [egg-security] use methodnoallow middleware
+2020-04-09 00:52:41,272 INFO 73618 [egg-security] use noopen middleware
+2020-04-09 00:52:41,272 INFO 73618 [egg-security] use nosniff middleware
+2020-04-09 00:52:41,273 INFO 73618 [egg-security] use xssProtection middleware
+2020-04-09 00:52:41,273 INFO 73618 [egg-security] use xframe middleware
+2020-04-09 00:52:41,274 INFO 73618 [egg-security] use dta middleware
+2020-04-09 00:52:41,274 INFO 73618 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:52:41,292 INFO 73618 [egg:core] dump config after load, 5ms
+2020-04-09 00:52:41,304 INFO 73618 [egg-watcher:application] watcher start success
+2020-04-09 00:52:41,310 INFO 73618 [egg:core] dump config after ready, 3ms
+2020-04-09 00:53:30,676 INFO 73653 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:53:30,708 INFO 73653 [egg-multipart] stream mode enable
+2020-04-09 00:53:30,995 INFO 73653 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:53:30,997 INFO 73653 [egg-security] use csrf middleware
+2020-04-09 00:53:30,998 INFO 73653 [egg-security] use methodnoallow middleware
+2020-04-09 00:53:30,998 INFO 73653 [egg-security] use noopen middleware
+2020-04-09 00:53:30,999 INFO 73653 [egg-security] use nosniff middleware
+2020-04-09 00:53:30,999 INFO 73653 [egg-security] use xssProtection middleware
+2020-04-09 00:53:30,999 INFO 73653 [egg-security] use xframe middleware
+2020-04-09 00:53:31,000 INFO 73653 [egg-security] use dta middleware
+2020-04-09 00:53:31,000 INFO 73653 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:53:31,012 INFO 73653 [egg:core] dump config after load, 5ms
+2020-04-09 00:53:31,038 INFO 73653 [egg-watcher:application] watcher start success
+2020-04-09 00:53:31,046 INFO 73653 [egg:core] dump config after ready, 4ms
+2020-04-09 00:55:42,321 INFO 73749 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:55:42,347 INFO 73749 [egg-multipart] stream mode enable
+2020-04-09 00:55:42,609 INFO 73749 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:55:42,611 INFO 73749 [egg-security] use csrf middleware
+2020-04-09 00:55:42,612 INFO 73749 [egg-security] use methodnoallow middleware
+2020-04-09 00:55:42,612 INFO 73749 [egg-security] use noopen middleware
+2020-04-09 00:55:42,612 INFO 73749 [egg-security] use nosniff middleware
+2020-04-09 00:55:42,613 INFO 73749 [egg-security] use xssProtection middleware
+2020-04-09 00:55:42,613 INFO 73749 [egg-security] use xframe middleware
+2020-04-09 00:55:42,613 INFO 73749 [egg-security] use dta middleware
+2020-04-09 00:55:42,613 INFO 73749 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:55:42,626 INFO 73749 [egg:core] dump config after load, 6ms
+2020-04-09 00:55:42,651 INFO 73749 [egg-watcher:application] watcher start success
+2020-04-09 00:55:42,657 INFO 73749 [egg:core] dump config after ready, 4ms
+2020-04-09 00:56:50,978 INFO 73805 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:56:51,003 INFO 73805 [egg-multipart] stream mode enable
+2020-04-09 00:56:51,265 INFO 73805 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:56:51,267 INFO 73805 [egg-security] use csrf middleware
+2020-04-09 00:56:51,267 INFO 73805 [egg-security] use methodnoallow middleware
+2020-04-09 00:56:51,268 INFO 73805 [egg-security] use noopen middleware
+2020-04-09 00:56:51,268 INFO 73805 [egg-security] use nosniff middleware
+2020-04-09 00:56:51,268 INFO 73805 [egg-security] use xssProtection middleware
+2020-04-09 00:56:51,269 INFO 73805 [egg-security] use xframe middleware
+2020-04-09 00:56:51,269 INFO 73805 [egg-security] use dta middleware
+2020-04-09 00:56:51,269 INFO 73805 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:56:51,283 INFO 73805 [egg:core] dump config after load, 8ms
+2020-04-09 00:56:51,301 INFO 73805 [egg-watcher:application] watcher start success
+2020-04-09 00:56:51,310 INFO 73805 [egg:core] dump config after ready, 5ms
+2020-04-09 00:58:31,615 INFO 73877 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:58:31,655 INFO 73877 [egg-multipart] stream mode enable
+2020-04-09 00:58:31,947 INFO 73877 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:58:31,950 INFO 73877 [egg-security] use csrf middleware
+2020-04-09 00:58:31,951 INFO 73877 [egg-security] use methodnoallow middleware
+2020-04-09 00:58:31,951 INFO 73877 [egg-security] use noopen middleware
+2020-04-09 00:58:31,952 INFO 73877 [egg-security] use nosniff middleware
+2020-04-09 00:58:31,952 INFO 73877 [egg-security] use xssProtection middleware
+2020-04-09 00:58:31,953 INFO 73877 [egg-security] use xframe middleware
+2020-04-09 00:58:31,953 INFO 73877 [egg-security] use dta middleware
+2020-04-09 00:58:31,953 INFO 73877 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:58:31,968 INFO 73877 [egg:core] dump config after load, 7ms
+2020-04-09 00:58:31,984 INFO 73877 [egg-watcher:application] watcher start success
+2020-04-09 00:58:31,990 INFO 73877 [egg:core] dump config after ready, 3ms
+2020-04-09 00:59:48,939 INFO 73929 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 00:59:48,963 INFO 73929 [egg-multipart] stream mode enable
+2020-04-09 00:59:49,233 INFO 73929 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 00:59:49,235 INFO 73929 [egg-security] use csrf middleware
+2020-04-09 00:59:49,236 INFO 73929 [egg-security] use methodnoallow middleware
+2020-04-09 00:59:49,236 INFO 73929 [egg-security] use noopen middleware
+2020-04-09 00:59:49,236 INFO 73929 [egg-security] use nosniff middleware
+2020-04-09 00:59:49,237 INFO 73929 [egg-security] use xssProtection middleware
+2020-04-09 00:59:49,237 INFO 73929 [egg-security] use xframe middleware
+2020-04-09 00:59:49,237 INFO 73929 [egg-security] use dta middleware
+2020-04-09 00:59:49,237 INFO 73929 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 00:59:49,253 INFO 73929 [egg:core] dump config after load, 8ms
+2020-04-09 00:59:49,270 INFO 73929 [egg-watcher:application] watcher start success
+2020-04-09 00:59:49,278 INFO 73929 [egg:core] dump config after ready, 5ms
+2020-04-09 12:47:35,449 INFO 83232 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 12:47:35,472 INFO 83232 [egg-multipart] stream mode enable
+2020-04-09 12:47:35,958 INFO 83232 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 12:47:35,961 INFO 83232 [egg-security] use csrf middleware
+2020-04-09 12:47:35,962 INFO 83232 [egg-security] use methodnoallow middleware
+2020-04-09 12:47:35,963 INFO 83232 [egg-security] use noopen middleware
+2020-04-09 12:47:35,963 INFO 83232 [egg-security] use nosniff middleware
+2020-04-09 12:47:35,964 INFO 83232 [egg-security] use xssProtection middleware
+2020-04-09 12:47:35,965 INFO 83232 [egg-security] use xframe middleware
+2020-04-09 12:47:35,965 INFO 83232 [egg-security] use dta middleware
+2020-04-09 12:47:35,965 INFO 83232 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 12:47:35,991 INFO 83232 [egg:core] dump config after load, 9ms
+2020-04-09 12:47:36,007 INFO 83232 [egg-watcher:application] watcher start success
+2020-04-09 12:47:36,017 INFO 83232 [egg:core] dump config after ready, 7ms
+2020-04-09 12:58:45,347 INFO 83709 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 12:58:45,375 INFO 83709 [egg-multipart] stream mode enable
+2020-04-09 12:58:45,817 INFO 83709 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 12:58:45,819 INFO 83709 [egg-security] use csrf middleware
+2020-04-09 12:58:45,820 INFO 83709 [egg-security] use methodnoallow middleware
+2020-04-09 12:58:45,820 INFO 83709 [egg-security] use noopen middleware
+2020-04-09 12:58:45,821 INFO 83709 [egg-security] use nosniff middleware
+2020-04-09 12:58:45,821 INFO 83709 [egg-security] use xssProtection middleware
+2020-04-09 12:58:45,822 INFO 83709 [egg-security] use xframe middleware
+2020-04-09 12:58:45,822 INFO 83709 [egg-security] use dta middleware
+2020-04-09 12:58:45,822 INFO 83709 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 12:58:45,838 INFO 83709 [egg:core] dump config after load, 4ms
+2020-04-09 12:58:45,857 INFO 83709 [egg-watcher:application] watcher start success
+2020-04-09 12:58:45,869 INFO 83709 [egg:core] dump config after ready, 5ms
+2020-04-09 13:02:28,208 INFO 83924 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 13:02:28,239 INFO 83924 [egg-multipart] stream mode enable
+2020-04-09 13:02:28,682 INFO 83924 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 13:02:28,684 INFO 83924 [egg-security] use csrf middleware
+2020-04-09 13:02:28,685 INFO 83924 [egg-security] use methodnoallow middleware
+2020-04-09 13:02:28,685 INFO 83924 [egg-security] use noopen middleware
+2020-04-09 13:02:28,686 INFO 83924 [egg-security] use nosniff middleware
+2020-04-09 13:02:28,686 INFO 83924 [egg-security] use xssProtection middleware
+2020-04-09 13:02:28,687 INFO 83924 [egg-security] use xframe middleware
+2020-04-09 13:02:28,688 INFO 83924 [egg-security] use dta middleware
+2020-04-09 13:02:28,688 INFO 83924 [egg-security] compose 7 middlewares into one security middleware
+2020-04-09 13:02:28,708 INFO 83924 [egg:core] dump config after load, 6ms
+2020-04-09 13:02:28,726 INFO 83924 [egg-watcher:application] watcher start success
+2020-04-09 13:02:28,732 INFO 83924 [egg:core] dump config after ready, 4ms
+2020-04-09 13:02:54,682 WARN 83924 [-/127.0.0.1/-/5ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-09 13:02:54,684 WARN 83924 [-/127.0.0.1/-/7ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/choizhang/copywriting/egg/node_modules/koa-bodyparser/index.js:95:11)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 83924
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 13:04:28,976 WARN 83924 [-/127.0.0.1/-/1ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2020-04-09 13:04:28,976 WARN 83924 [-/127.0.0.1/-/1ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (/Users/choizhang/copywriting/egg/node_modules/koa/lib/context.js:97:11)
+    at Object.assertCsrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/app/extend/context.js:153:19)
+    at csrf (/Users/choizhang/copywriting/egg/node_modules/egg-security/lib/middlewares/csrf.js:33:9)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at /Users/choizhang/copywriting/egg/node_modules/egg-security/node_modules/koa-compose/index.js:34:12
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at session (/Users/choizhang/copywriting/egg/node_modules/koa-session/index.js:41:13)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at overrideMethod (/Users/choizhang/copywriting/egg/node_modules/koa-override/index.js:38:12)
+    at dispatch (/Users/choizhang/copywriting/egg/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at bodyParser (/Users/choizhang/copywriting/egg/node_modules/koa-bodyparser/index.js:95:11)
+message: "missing csrf token"
+headers: {"Access-Control-Allow-Origin":"*","Access-Control-Allow-Credentials":"true","vary":"Origin"}
+pid: 83924
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 13:05:32,148 INFO 84066 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 13:05:32,179 INFO 84066 [egg-multipart] stream mode enable
+2020-04-09 13:05:32,609 INFO 84066 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 13:05:32,613 INFO 84066 [egg-security] use methodnoallow middleware
+2020-04-09 13:05:32,613 INFO 84066 [egg-security] use noopen middleware
+2020-04-09 13:05:32,614 INFO 84066 [egg-security] use nosniff middleware
+2020-04-09 13:05:32,615 INFO 84066 [egg-security] use xssProtection middleware
+2020-04-09 13:05:32,616 INFO 84066 [egg-security] use xframe middleware
+2020-04-09 13:05:32,616 INFO 84066 [egg-security] use dta middleware
+2020-04-09 13:05:32,616 INFO 84066 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 13:05:32,639 INFO 84066 [egg:core] dump config after load, 7ms
+2020-04-09 13:05:32,658 INFO 84066 [egg-watcher:application] watcher start success
+2020-04-09 13:05:32,666 INFO 84066 [egg:core] dump config after ready, 5ms
+2020-04-09 15:14:41,239 INFO 87122 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 15:14:41,270 INFO 87122 [egg-multipart] stream mode enable
+2020-04-09 15:14:41,796 INFO 87122 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 15:14:41,799 INFO 87122 [egg-security] use methodnoallow middleware
+2020-04-09 15:14:41,800 INFO 87122 [egg-security] use noopen middleware
+2020-04-09 15:14:41,801 INFO 87122 [egg-security] use nosniff middleware
+2020-04-09 15:14:41,802 INFO 87122 [egg-security] use xssProtection middleware
+2020-04-09 15:14:41,803 INFO 87122 [egg-security] use xframe middleware
+2020-04-09 15:14:41,803 INFO 87122 [egg-security] use dta middleware
+2020-04-09 15:14:41,803 INFO 87122 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 15:14:41,825 INFO 87122 [egg:core] dump config after load, 9ms
+2020-04-09 15:14:41,843 INFO 87122 [egg-watcher:application] watcher start success
+2020-04-09 15:14:41,850 INFO 87122 [egg:core] dump config after ready, 4ms
+2020-04-09 15:14:47,006 INFO 87128 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 15:14:47,030 INFO 87128 [egg-multipart] stream mode enable
+2020-04-09 15:14:47,313 INFO 87128 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 15:14:47,315 INFO 87128 [egg-security] use methodnoallow middleware
+2020-04-09 15:14:47,315 INFO 87128 [egg-security] use noopen middleware
+2020-04-09 15:14:47,315 INFO 87128 [egg-security] use nosniff middleware
+2020-04-09 15:14:47,316 INFO 87128 [egg-security] use xssProtection middleware
+2020-04-09 15:14:47,316 INFO 87128 [egg-security] use xframe middleware
+2020-04-09 15:14:47,316 INFO 87128 [egg-security] use dta middleware
+2020-04-09 15:14:47,316 INFO 87128 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 15:14:47,330 INFO 87128 [egg:core] dump config after load, 7ms
+2020-04-09 15:14:47,347 INFO 87128 [egg-watcher:application] watcher start success
+2020-04-09 15:14:47,354 INFO 87128 [egg:core] dump config after ready, 5ms
+2020-04-09 15:39:15,370 INFO 88170 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 15:39:15,399 INFO 88170 [egg-multipart] stream mode enable
+2020-04-09 15:39:15,835 INFO 88170 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 15:39:15,837 INFO 88170 [egg-security] use methodnoallow middleware
+2020-04-09 15:39:15,838 INFO 88170 [egg-security] use noopen middleware
+2020-04-09 15:39:15,839 INFO 88170 [egg-security] use nosniff middleware
+2020-04-09 15:39:15,839 INFO 88170 [egg-security] use xssProtection middleware
+2020-04-09 15:39:15,840 INFO 88170 [egg-security] use xframe middleware
+2020-04-09 15:39:15,840 INFO 88170 [egg-security] use dta middleware
+2020-04-09 15:39:15,840 INFO 88170 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 15:39:15,863 INFO 88170 [egg:core] dump config after load, 5ms
+2020-04-09 15:39:15,881 INFO 88170 [egg-watcher:application] watcher start success
+2020-04-09 15:39:15,887 INFO 88170 [egg:core] dump config after ready, 3ms
+2020-04-09 15:41:50,603 INFO 88301 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 15:41:50,636 INFO 88301 [egg-multipart] stream mode enable
+2020-04-09 15:41:50,962 INFO 88301 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 15:41:50,964 INFO 88301 [egg-security] use methodnoallow middleware
+2020-04-09 15:41:50,965 INFO 88301 [egg-security] use noopen middleware
+2020-04-09 15:41:50,965 INFO 88301 [egg-security] use nosniff middleware
+2020-04-09 15:41:50,965 INFO 88301 [egg-security] use xssProtection middleware
+2020-04-09 15:41:50,966 INFO 88301 [egg-security] use xframe middleware
+2020-04-09 15:41:50,966 INFO 88301 [egg-security] use dta middleware
+2020-04-09 15:41:50,966 INFO 88301 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 15:41:50,980 INFO 88301 [egg:core] dump config after load, 4ms
+2020-04-09 15:41:50,996 INFO 88301 [egg-watcher:application] watcher start success
+2020-04-09 15:41:51,003 INFO 88301 [egg:core] dump config after ready, 4ms
+2020-04-09 15:42:32,099 INFO 88337 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 15:42:32,126 INFO 88337 [egg-multipart] stream mode enable
+2020-04-09 15:42:32,416 INFO 88337 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 15:42:32,418 INFO 88337 [egg-security] use methodnoallow middleware
+2020-04-09 15:42:32,418 INFO 88337 [egg-security] use noopen middleware
+2020-04-09 15:42:32,419 INFO 88337 [egg-security] use nosniff middleware
+2020-04-09 15:42:32,419 INFO 88337 [egg-security] use xssProtection middleware
+2020-04-09 15:42:32,419 INFO 88337 [egg-security] use xframe middleware
+2020-04-09 15:42:32,419 INFO 88337 [egg-security] use dta middleware
+2020-04-09 15:42:32,419 INFO 88337 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 15:42:32,453 INFO 88337 [egg:core] dump config after load, 25ms
+2020-04-09 15:42:32,470 INFO 88337 [egg-watcher:application] watcher start success
+2020-04-09 15:42:32,491 INFO 88337 [egg:core] dump config after ready, 18ms
+2020-04-09 15:44:43,134 INFO 88435 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 15:44:43,158 INFO 88435 [egg-multipart] stream mode enable
+2020-04-09 15:44:43,426 INFO 88435 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 15:44:43,428 INFO 88435 [egg-security] use methodnoallow middleware
+2020-04-09 15:44:43,428 INFO 88435 [egg-security] use noopen middleware
+2020-04-09 15:44:43,429 INFO 88435 [egg-security] use nosniff middleware
+2020-04-09 15:44:43,429 INFO 88435 [egg-security] use xssProtection middleware
+2020-04-09 15:44:43,429 INFO 88435 [egg-security] use xframe middleware
+2020-04-09 15:44:43,429 INFO 88435 [egg-security] use dta middleware
+2020-04-09 15:44:43,429 INFO 88435 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 15:44:43,440 INFO 88435 [egg:core] dump config after load, 4ms
+2020-04-09 15:44:43,450 INFO 88435 [egg-watcher:application] watcher start success
+2020-04-09 15:44:43,456 INFO 88435 [egg:core] dump config after ready, 4ms
+2020-04-09 15:45:10,653 INFO 88452 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 15:45:10,680 INFO 88452 [egg-multipart] stream mode enable
+2020-04-09 15:45:10,967 INFO 88452 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 15:45:10,969 INFO 88452 [egg-security] use methodnoallow middleware
+2020-04-09 15:45:10,970 INFO 88452 [egg-security] use noopen middleware
+2020-04-09 15:45:10,970 INFO 88452 [egg-security] use nosniff middleware
+2020-04-09 15:45:10,971 INFO 88452 [egg-security] use xssProtection middleware
+2020-04-09 15:45:10,971 INFO 88452 [egg-security] use xframe middleware
+2020-04-09 15:45:10,971 INFO 88452 [egg-security] use dta middleware
+2020-04-09 15:45:10,971 INFO 88452 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 15:45:10,988 INFO 88452 [egg:core] dump config after load, 6ms
+2020-04-09 15:45:11,008 INFO 88452 [egg-watcher:application] watcher start success
+2020-04-09 15:45:11,015 INFO 88452 [egg:core] dump config after ready, 5ms
+2020-04-09 15:45:19,494 INFO 88469 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 15:45:19,528 INFO 88469 [egg-multipart] stream mode enable
+2020-04-09 15:45:19,997 INFO 88469 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 15:45:20,000 INFO 88469 [egg-security] use methodnoallow middleware
+2020-04-09 15:45:20,001 INFO 88469 [egg-security] use noopen middleware
+2020-04-09 15:45:20,001 INFO 88469 [egg-security] use nosniff middleware
+2020-04-09 15:45:20,002 INFO 88469 [egg-security] use xssProtection middleware
+2020-04-09 15:45:20,002 INFO 88469 [egg-security] use xframe middleware
+2020-04-09 15:45:20,003 INFO 88469 [egg-security] use dta middleware
+2020-04-09 15:45:20,003 INFO 88469 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 15:45:20,051 INFO 88469 [egg:core] dump config after load, 29ms
+2020-04-09 15:45:20,133 INFO 88469 [egg-watcher:application] watcher start success
+2020-04-09 15:45:20,172 INFO 88469 [egg:core] dump config after ready, 30ms
+2020-04-09 16:30:00,525 INFO 90764 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:30:00,556 INFO 90764 [egg-multipart] stream mode enable
+2020-04-09 16:30:00,995 INFO 90764 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:30:00,998 INFO 90764 [egg-security] use methodnoallow middleware
+2020-04-09 16:30:00,998 INFO 90764 [egg-security] use noopen middleware
+2020-04-09 16:30:00,999 INFO 90764 [egg-security] use nosniff middleware
+2020-04-09 16:30:00,999 INFO 90764 [egg-security] use xssProtection middleware
+2020-04-09 16:30:01,000 INFO 90764 [egg-security] use xframe middleware
+2020-04-09 16:30:01,000 INFO 90764 [egg-security] use dta middleware
+2020-04-09 16:30:01,001 INFO 90764 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:30:01,047 INFO 90764 [egg:core] dump config after load, 37ms
+2020-04-09 16:30:01,063 INFO 90764 [egg-watcher:application] watcher start success
+2020-04-09 16:30:01,100 INFO 90764 [egg:core] dump config after ready, 34ms
+2020-04-09 16:30:32,881 ERROR 90798 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'localhost' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'root'@'localhost' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 90798
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 16:30:32,244 INFO 90798 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:30:32,276 INFO 90798 [egg-multipart] stream mode enable
+2020-04-09 16:30:32,277 INFO 90798 [egg-mysql] connecting root@localhost:3306/test
+2020-04-09 16:30:32,771 INFO 90798 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:30:32,774 INFO 90798 [egg-security] use methodnoallow middleware
+2020-04-09 16:30:32,774 INFO 90798 [egg-security] use noopen middleware
+2020-04-09 16:30:32,775 INFO 90798 [egg-security] use nosniff middleware
+2020-04-09 16:30:32,776 INFO 90798 [egg-security] use xssProtection middleware
+2020-04-09 16:30:32,776 INFO 90798 [egg-security] use xframe middleware
+2020-04-09 16:30:32,777 INFO 90798 [egg-security] use dta middleware
+2020-04-09 16:30:32,777 INFO 90798 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:30:32,819 INFO 90798 [egg:core] dump config after load, 29ms
+2020-04-09 16:30:32,843 INFO 90798 [egg-watcher:application] watcher start success
+2020-04-09 16:30:32,921 INFO 90798 [egg:core] dump config after ready, 35ms
+2020-04-09 16:34:10,851 ERROR 90990 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'root'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'root'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 90990
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 16:34:10,296 INFO 90990 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:34:10,328 INFO 90990 [egg-multipart] stream mode enable
+2020-04-09 16:34:10,329 INFO 90990 [egg-mysql] connecting root@47.91.243.144:3306/test
+2020-04-09 16:34:10,651 INFO 90990 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:34:10,653 INFO 90990 [egg-security] use methodnoallow middleware
+2020-04-09 16:34:10,654 INFO 90990 [egg-security] use noopen middleware
+2020-04-09 16:34:10,654 INFO 90990 [egg-security] use nosniff middleware
+2020-04-09 16:34:10,654 INFO 90990 [egg-security] use xssProtection middleware
+2020-04-09 16:34:10,655 INFO 90990 [egg-security] use xframe middleware
+2020-04-09 16:34:10,655 INFO 90990 [egg-security] use dta middleware
+2020-04-09 16:34:10,655 INFO 90990 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:34:10,677 INFO 90990 [egg:core] dump config after load, 14ms
+2020-04-09 16:34:10,700 INFO 90990 [egg-watcher:application] watcher start success
+2020-04-09 16:34:10,857 INFO 90990 [egg:core] dump config after ready, 4ms
+2020-04-09 16:34:15,942 ERROR 90997 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 90997
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 16:34:15,370 INFO 90997 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:34:15,402 INFO 90997 [egg-multipart] stream mode enable
+2020-04-09 16:34:15,402 INFO 90997 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/test
+2020-04-09 16:34:15,739 INFO 90997 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:34:15,741 INFO 90997 [egg-security] use methodnoallow middleware
+2020-04-09 16:34:15,742 INFO 90997 [egg-security] use noopen middleware
+2020-04-09 16:34:15,742 INFO 90997 [egg-security] use nosniff middleware
+2020-04-09 16:34:15,742 INFO 90997 [egg-security] use xssProtection middleware
+2020-04-09 16:34:15,743 INFO 90997 [egg-security] use xframe middleware
+2020-04-09 16:34:15,743 INFO 90997 [egg-security] use dta middleware
+2020-04-09 16:34:15,743 INFO 90997 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:34:15,755 INFO 90997 [egg:core] dump config after load, 5ms
+2020-04-09 16:34:15,777 INFO 90997 [egg-watcher:application] watcher start success
+2020-04-09 16:34:15,950 INFO 90997 [egg:core] dump config after ready, 5ms
+2020-04-09 16:34:45,293 ERROR 91015 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 91015
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 16:34:44,748 INFO 91015 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:34:44,780 INFO 91015 [egg-multipart] stream mode enable
+2020-04-09 16:34:44,781 INFO 91015 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/test
+2020-04-09 16:34:45,114 INFO 91015 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:34:45,116 INFO 91015 [egg-security] use methodnoallow middleware
+2020-04-09 16:34:45,116 INFO 91015 [egg-security] use noopen middleware
+2020-04-09 16:34:45,117 INFO 91015 [egg-security] use nosniff middleware
+2020-04-09 16:34:45,117 INFO 91015 [egg-security] use xssProtection middleware
+2020-04-09 16:34:45,117 INFO 91015 [egg-security] use xframe middleware
+2020-04-09 16:34:45,117 INFO 91015 [egg-security] use dta middleware
+2020-04-09 16:34:45,117 INFO 91015 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:34:45,130 INFO 91015 [egg:core] dump config after load, 6ms
+2020-04-09 16:34:45,151 INFO 91015 [egg-watcher:application] watcher start success
+2020-04-09 16:34:45,311 INFO 91015 [egg:core] dump config after ready, 14ms
+2020-04-09 16:36:14,820 ERROR 91089 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 91089
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 16:36:14,202 INFO 91089 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:36:14,238 INFO 91089 [egg-multipart] stream mode enable
+2020-04-09 16:36:14,238 INFO 91089 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:36:14,596 INFO 91089 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:36:14,599 INFO 91089 [egg-security] use methodnoallow middleware
+2020-04-09 16:36:14,599 INFO 91089 [egg-security] use noopen middleware
+2020-04-09 16:36:14,600 INFO 91089 [egg-security] use nosniff middleware
+2020-04-09 16:36:14,600 INFO 91089 [egg-security] use xssProtection middleware
+2020-04-09 16:36:14,600 INFO 91089 [egg-security] use xframe middleware
+2020-04-09 16:36:14,601 INFO 91089 [egg-security] use dta middleware
+2020-04-09 16:36:14,601 INFO 91089 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:36:14,639 INFO 91089 [egg:core] dump config after load, 31ms
+2020-04-09 16:36:14,661 INFO 91089 [egg-watcher:application] watcher start success
+2020-04-09 16:36:14,831 INFO 91089 [egg:core] dump config after ready, 8ms
+2020-04-09 16:40:32,812 ERROR 91305 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 91305
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 16:40:32,000 INFO 91305 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:40:32,030 INFO 91305 [egg-multipart] stream mode enable
+2020-04-09 16:40:32,032 INFO 91305 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:40:32,571 INFO 91305 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:40:32,574 INFO 91305 [egg-security] use methodnoallow middleware
+2020-04-09 16:40:32,574 INFO 91305 [egg-security] use noopen middleware
+2020-04-09 16:40:32,575 INFO 91305 [egg-security] use nosniff middleware
+2020-04-09 16:40:32,575 INFO 91305 [egg-security] use xssProtection middleware
+2020-04-09 16:40:32,576 INFO 91305 [egg-security] use xframe middleware
+2020-04-09 16:40:32,576 INFO 91305 [egg-security] use dta middleware
+2020-04-09 16:40:32,576 INFO 91305 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:40:32,610 INFO 91305 [egg:core] dump config after load, 23ms
+2020-04-09 16:40:32,624 INFO 91305 [egg-watcher:application] watcher start success
+2020-04-09 16:40:32,847 INFO 91305 [egg:core] dump config after ready, 32ms
+2020-04-09 16:41:21,035 INFO 91340 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:41:21,494 INFO 91340 [egg-multipart] stream mode enable
+2020-04-09 16:41:21,495 INFO 91340 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:41:21,946 INFO 91340 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:41:21,948 INFO 91340 [egg-security] use methodnoallow middleware
+2020-04-09 16:41:21,949 INFO 91340 [egg-security] use noopen middleware
+2020-04-09 16:41:21,949 INFO 91340 [egg-security] use nosniff middleware
+2020-04-09 16:41:21,950 INFO 91340 [egg-security] use xssProtection middleware
+2020-04-09 16:41:21,950 INFO 91340 [egg-security] use xframe middleware
+2020-04-09 16:41:21,951 INFO 91340 [egg-security] use dta middleware
+2020-04-09 16:41:21,951 INFO 91340 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:41:21,967 INFO 91340 [egg:core] dump config after load, 5ms
+2020-04-09 16:41:21,987 INFO 91340 [egg-watcher:application] watcher start success
+2020-04-09 16:41:22,139 ERROR 91340 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 91340
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 16:41:22,225 INFO 91340 [egg:core] dump config after ready, 84ms
+2020-04-09 16:41:36,272 INFO 91355 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:41:36,299 INFO 91355 [egg-multipart] stream mode enable
+2020-04-09 16:41:36,300 INFO 91355 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:41:36,778 INFO 91355 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:41:36,780 INFO 91355 [egg-security] use methodnoallow middleware
+2020-04-09 16:41:36,781 INFO 91355 [egg-security] use noopen middleware
+2020-04-09 16:41:36,781 INFO 91355 [egg-security] use nosniff middleware
+2020-04-09 16:41:36,782 INFO 91355 [egg-security] use xssProtection middleware
+2020-04-09 16:41:36,782 INFO 91355 [egg-security] use xframe middleware
+2020-04-09 16:41:36,783 INFO 91355 [egg-security] use dta middleware
+2020-04-09 16:41:36,783 INFO 91355 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:41:36,798 INFO 91355 [egg:core] dump config after load, 5ms
+2020-04-09 16:41:36,819 INFO 91355 [egg-watcher:application] watcher start success
+2020-04-09 16:41:38,649 ERROR 91355 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 91355
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 16:41:38,657 INFO 91355 [egg:core] dump config after ready, 5ms
+2020-04-09 16:49:52,482 INFO 91743 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:49:52,523 INFO 91743 [egg-multipart] stream mode enable
+2020-04-09 16:49:52,524 INFO 91743 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:49:53,040 INFO 91743 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:49:53,042 INFO 91743 [egg-security] use methodnoallow middleware
+2020-04-09 16:49:53,042 INFO 91743 [egg-security] use noopen middleware
+2020-04-09 16:49:53,043 INFO 91743 [egg-security] use nosniff middleware
+2020-04-09 16:49:53,044 INFO 91743 [egg-security] use xssProtection middleware
+2020-04-09 16:49:53,044 INFO 91743 [egg-security] use xframe middleware
+2020-04-09 16:49:53,045 INFO 91743 [egg-security] use dta middleware
+2020-04-09 16:49:53,045 INFO 91743 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:49:53,064 INFO 91743 [egg:core] dump config after load, 8ms
+2020-04-09 16:49:53,084 INFO 91743 [egg-watcher:application] watcher start success
+2020-04-09 16:51:43,053 INFO 91881 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:51:43,082 INFO 91881 [egg-multipart] stream mode enable
+2020-04-09 16:51:43,083 INFO 91881 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:51:43,571 INFO 91881 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:51:43,574 INFO 91881 [egg-security] use methodnoallow middleware
+2020-04-09 16:51:43,575 INFO 91881 [egg-security] use noopen middleware
+2020-04-09 16:51:43,576 INFO 91881 [egg-security] use nosniff middleware
+2020-04-09 16:51:43,576 INFO 91881 [egg-security] use xssProtection middleware
+2020-04-09 16:51:43,577 INFO 91881 [egg-security] use xframe middleware
+2020-04-09 16:51:43,577 INFO 91881 [egg-security] use dta middleware
+2020-04-09 16:51:43,577 INFO 91881 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:51:43,591 INFO 91881 [egg:core] dump config after load, 5ms
+2020-04-09 16:51:43,616 INFO 91881 [egg-watcher:application] watcher start success
+2020-04-09 16:53:45,855 INFO 91976 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:53:45,882 INFO 91976 [egg-multipart] stream mode enable
+2020-04-09 16:53:46,355 INFO 91976 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:53:46,357 INFO 91976 [egg-security] use methodnoallow middleware
+2020-04-09 16:53:46,358 INFO 91976 [egg-security] use noopen middleware
+2020-04-09 16:53:46,358 INFO 91976 [egg-security] use nosniff middleware
+2020-04-09 16:53:46,359 INFO 91976 [egg-security] use xssProtection middleware
+2020-04-09 16:53:46,359 INFO 91976 [egg-security] use xframe middleware
+2020-04-09 16:53:46,359 INFO 91976 [egg-security] use dta middleware
+2020-04-09 16:53:46,359 INFO 91976 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:53:46,378 INFO 91976 [egg:core] dump config after load, 6ms
+2020-04-09 16:53:46,395 INFO 91976 [egg-watcher:application] watcher start success
+2020-04-09 16:53:46,403 INFO 91976 [egg:core] dump config after ready, 5ms
+2020-04-09 16:54:10,919 INFO 91993 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:54:10,951 INFO 91993 [egg-multipart] stream mode enable
+2020-04-09 16:54:10,952 INFO 91993 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:54:11,293 INFO 91993 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:54:11,295 INFO 91993 [egg-security] use methodnoallow middleware
+2020-04-09 16:54:11,295 INFO 91993 [egg-security] use noopen middleware
+2020-04-09 16:54:11,296 INFO 91993 [egg-security] use nosniff middleware
+2020-04-09 16:54:11,296 INFO 91993 [egg-security] use xssProtection middleware
+2020-04-09 16:54:11,296 INFO 91993 [egg-security] use xframe middleware
+2020-04-09 16:54:11,296 INFO 91993 [egg-security] use dta middleware
+2020-04-09 16:54:11,296 INFO 91993 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:54:11,307 INFO 91993 [egg:core] dump config after load, 4ms
+2020-04-09 16:54:11,330 INFO 91993 [egg-watcher:application] watcher start success
+2020-04-09 16:56:21,442 INFO 92125 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:56:21,469 INFO 92125 [egg-multipart] stream mode enable
+2020-04-09 16:56:21,470 INFO 92125 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:56:21,793 INFO 92125 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:56:21,795 INFO 92125 [egg-security] use methodnoallow middleware
+2020-04-09 16:56:21,795 INFO 92125 [egg-security] use noopen middleware
+2020-04-09 16:56:21,796 INFO 92125 [egg-security] use nosniff middleware
+2020-04-09 16:56:21,796 INFO 92125 [egg-security] use xssProtection middleware
+2020-04-09 16:56:21,796 INFO 92125 [egg-security] use xframe middleware
+2020-04-09 16:56:21,797 INFO 92125 [egg-security] use dta middleware
+2020-04-09 16:56:21,797 INFO 92125 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:56:21,809 INFO 92125 [egg:core] dump config after load, 6ms
+2020-04-09 16:56:21,835 INFO 92125 [egg-watcher:application] watcher start success
+2020-04-09 16:56:48,284 INFO 92170 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 16:56:48,307 INFO 92170 [egg-multipart] stream mode enable
+2020-04-09 16:56:48,308 INFO 92170 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 16:56:48,619 INFO 92170 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 16:56:48,621 INFO 92170 [egg-security] use methodnoallow middleware
+2020-04-09 16:56:48,622 INFO 92170 [egg-security] use noopen middleware
+2020-04-09 16:56:48,622 INFO 92170 [egg-security] use nosniff middleware
+2020-04-09 16:56:48,622 INFO 92170 [egg-security] use xssProtection middleware
+2020-04-09 16:56:48,623 INFO 92170 [egg-security] use xframe middleware
+2020-04-09 16:56:48,623 INFO 92170 [egg-security] use dta middleware
+2020-04-09 16:56:48,623 INFO 92170 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 16:56:48,634 INFO 92170 [egg:core] dump config after load, 5ms
+2020-04-09 16:56:48,662 INFO 92170 [egg-watcher:application] watcher start success
+2020-04-09 17:00:43,867 ERROR 92349 [-/127.0.0.1/-/0ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 92349
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 17:00:43,193 INFO 92349 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 17:00:43,223 INFO 92349 [egg-multipart] stream mode enable
+2020-04-09 17:00:43,224 INFO 92349 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 17:00:43,689 INFO 92349 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 17:00:43,692 INFO 92349 [egg-security] use methodnoallow middleware
+2020-04-09 17:00:43,693 INFO 92349 [egg-security] use noopen middleware
+2020-04-09 17:00:43,693 INFO 92349 [egg-security] use nosniff middleware
+2020-04-09 17:00:43,694 INFO 92349 [egg-security] use xssProtection middleware
+2020-04-09 17:00:43,694 INFO 92349 [egg-security] use xframe middleware
+2020-04-09 17:00:43,695 INFO 92349 [egg-security] use dta middleware
+2020-04-09 17:00:43,695 INFO 92349 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 17:00:43,712 INFO 92349 [egg:core] dump config after load, 6ms
+2020-04-09 17:00:43,736 INFO 92349 [egg-watcher:application] watcher start success
+2020-04-09 17:00:43,875 INFO 92349 [egg:core] dump config after ready, 5ms
+2020-04-09 17:00:43,916 WARN 92170 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-09 17:01:05,233 INFO 92376 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 17:01:05,269 INFO 92376 [egg-multipart] stream mode enable
+2020-04-09 17:01:05,270 INFO 92376 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 17:01:05,738 INFO 92376 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 17:01:05,740 INFO 92376 [egg-security] use methodnoallow middleware
+2020-04-09 17:01:05,741 INFO 92376 [egg-security] use noopen middleware
+2020-04-09 17:01:05,741 INFO 92376 [egg-security] use nosniff middleware
+2020-04-09 17:01:05,742 INFO 92376 [egg-security] use xssProtection middleware
+2020-04-09 17:01:05,742 INFO 92376 [egg-security] use xframe middleware
+2020-04-09 17:01:05,742 INFO 92376 [egg-security] use dta middleware
+2020-04-09 17:01:05,742 INFO 92376 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 17:01:05,770 INFO 92376 [egg:core] dump config after load, 19ms
+2020-04-09 17:01:05,812 INFO 92376 [egg-watcher:application] watcher start success
+2020-04-09 17:01:09,308 ERROR 92376 [-/127.0.0.1/-/1ms GET /] nodejs.ER_ACCESS_DENIED_ERRORError: ER_ACCESS_DENIED_ERROR: Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)
+    at Handshake.Sequence._packetToError (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Handshake.ErrorPacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/sequences/Handshake.js:123:18)
+    at Protocol._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:526:10)
+    at Socket.emit (events.js:182:13)
+    at addChunk (_stream_readable.js:279:12)
+    at readableAddChunk (_stream_readable.js:264:11)
+    at Socket.Readable.push (_stream_readable.js:219:10)
+    at TCP.onread (net.js:636:20)
+    --------------------
+    at Protocol._enqueue (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:48:16)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as getConnection] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at Pool.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/mysql/2.18.1/mysql/lib/Pool.js:202:8)
+    at /Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:12:10)
+    at Pool.ret [as query] (/Users/choizhang/copywriting/egg/node_modules/.npminstall/pify/2.3.0/pify/index.js:56:34)
+    at RDSClient.proto._query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/client.js:34:20)
+    at RDSClient.proto.query (/Users/choizhang/copywriting/egg/node_modules/.npminstall/ali-rds/3.3.1/ali-rds/lib/operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    sql: select now() as currentTime;
+code: "ER_ACCESS_DENIED_ERROR"
+errno: 1045
+sqlMessage: "Access denied for user 'hsh_hk'@'117.139.13.88' (using password: YES)"
+sqlState: "28000"
+fatal: true
+name: "ER_ACCESS_DENIED_ERRORError"
+pid: 92376
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 17:01:09,316 INFO 92376 [egg:core] dump config after ready, 5ms
+2020-04-09 17:01:17,293 INFO 92170 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 09 2020 17:01:16 GMT+0800 (CST)
+2020-04-09 17:01:17,302 INFO 92170 [egg:core] dump config after ready, 6ms
+2020-04-09 17:01:43,988 ERROR 92170 nodejs.Error: [ClusterClient] leader does not be active in 60000ms on port:58450
+    at Function.waitFor (/Users/choizhang/copywriting/egg/node_modules/cluster-client/lib/server.js:238:15)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 92170
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-09 17:01:47,090 INFO 92436 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 17:01:47,121 INFO 92436 [egg-multipart] stream mode enable
+2020-04-09 17:01:47,121 INFO 92436 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 17:01:47,486 INFO 92436 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 17:01:47,489 INFO 92436 [egg-security] use methodnoallow middleware
+2020-04-09 17:01:47,489 INFO 92436 [egg-security] use noopen middleware
+2020-04-09 17:01:47,490 INFO 92436 [egg-security] use nosniff middleware
+2020-04-09 17:01:47,490 INFO 92436 [egg-security] use xssProtection middleware
+2020-04-09 17:01:47,490 INFO 92436 [egg-security] use xframe middleware
+2020-04-09 17:01:47,491 INFO 92436 [egg-security] use dta middleware
+2020-04-09 17:01:47,491 INFO 92436 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 17:01:47,506 INFO 92436 [egg:core] dump config after load, 6ms
+2020-04-09 17:01:47,533 INFO 92436 [egg-watcher:application] watcher start success
+2020-04-09 17:01:47,755 INFO 92436 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 09 2020 17:01:47 GMT+0800 (CST)
+2020-04-09 17:01:47,772 INFO 92436 [egg:core] dump config after ready, 12ms
+2020-04-09 17:02:17,694 INFO 92465 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 17:02:17,727 INFO 92465 [egg-multipart] stream mode enable
+2020-04-09 17:02:17,728 INFO 92465 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 17:02:18,164 INFO 92465 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 17:02:18,167 INFO 92465 [egg-security] use methodnoallow middleware
+2020-04-09 17:02:18,167 INFO 92465 [egg-security] use noopen middleware
+2020-04-09 17:02:18,168 INFO 92465 [egg-security] use nosniff middleware
+2020-04-09 17:02:18,168 INFO 92465 [egg-security] use xssProtection middleware
+2020-04-09 17:02:18,169 INFO 92465 [egg-security] use xframe middleware
+2020-04-09 17:02:18,169 INFO 92465 [egg-security] use dta middleware
+2020-04-09 17:02:18,169 INFO 92465 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 17:02:18,200 INFO 92465 [egg:core] dump config after load, 19ms
+2020-04-09 17:02:18,248 INFO 92465 [egg-watcher:application] watcher start success
+2020-04-09 17:02:18,450 INFO 92465 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 09 2020 17:02:18 GMT+0800 (CST)
+2020-04-09 17:02:18,458 INFO 92465 [egg:core] dump config after ready, 6ms
+2020-04-09 17:02:34,601 INFO 92485 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 17:02:34,634 INFO 92485 [egg-multipart] stream mode enable
+2020-04-09 17:02:34,634 INFO 92485 [egg-mysql] connecting hsh_hk@47.91.243.144:3306/ticket_racing
+2020-04-09 17:02:34,997 INFO 92485 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 17:02:34,999 INFO 92485 [egg-security] use methodnoallow middleware
+2020-04-09 17:02:35,000 INFO 92485 [egg-security] use noopen middleware
+2020-04-09 17:02:35,000 INFO 92485 [egg-security] use nosniff middleware
+2020-04-09 17:02:35,000 INFO 92485 [egg-security] use xssProtection middleware
+2020-04-09 17:02:35,001 INFO 92485 [egg-security] use xframe middleware
+2020-04-09 17:02:35,001 INFO 92485 [egg-security] use dta middleware
+2020-04-09 17:02:35,001 INFO 92485 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 17:02:35,017 INFO 92485 [egg:core] dump config after load, 7ms
+2020-04-09 17:02:35,048 INFO 92485 [egg-watcher:application] watcher start success
+2020-04-09 17:02:35,224 INFO 92485 [egg-mysql] instance[0] status OK, rds currentTime: Thu Apr 09 2020 17:02:35 GMT+0800 (CST)
+2020-04-09 17:02:35,235 INFO 92485 [egg:core] dump config after ready, 8ms
+2020-04-09 20:39:23,316 WARN 92485 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-09 21:00:24,031 WARN 92485 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2020-04-09 21:00:24,039 WARN 92485 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-09 21:16:08,432 WARN 92485 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-09 21:18:53,363 WARN 92485 [ClusterClient:Watcher] follower closed, and try to init it again
+2020-04-09 23:37:49,320 INFO 3750 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywriting/egg/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-09 23:37:49,378 INFO 3750 [egg-multipart] stream mode enable
+2020-04-09 23:37:50,765 INFO 3750 [egg-static] starting static serve /public/ -> /Users/choizhang/copywriting/egg/app/public
+2020-04-09 23:37:50,772 INFO 3750 [egg-security] use methodnoallow middleware
+2020-04-09 23:37:50,772 INFO 3750 [egg-security] use noopen middleware
+2020-04-09 23:37:50,774 INFO 3750 [egg-security] use nosniff middleware
+2020-04-09 23:37:50,775 INFO 3750 [egg-security] use xssProtection middleware
+2020-04-09 23:37:50,777 INFO 3750 [egg-security] use xframe middleware
+2020-04-09 23:37:50,778 INFO 3750 [egg-security] use dta middleware
+2020-04-09 23:37:50,778 INFO 3750 [egg-security] compose 6 middlewares into one security middleware
+2020-04-09 23:37:50,812 INFO 3750 [egg:core] dump config after load, 10ms
+2020-04-09 23:37:50,835 INFO 3750 [egg-watcher:application] watcher start success
+2020-04-09 23:37:50,842 INFO 3750 [egg:core] dump config after ready, 5ms
+2020-04-10 14:50:00,719 INFO 21214 [egg:logger] init all loggers with options: {"dir":"/Users/choizhang/copywrite/logs/egg","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2020-04-10 14:50:00,749 INFO 21214 [egg-multipart] stream mode enable
+2020-04-10 14:50:01,159 INFO 21214 [egg-static] starting static serve /public/ -> /Users/choizhang/copywrite/app/public
+2020-04-10 14:50:01,162 INFO 21214 [egg-security] use methodnoallow middleware
+2020-04-10 14:50:01,162 INFO 21214 [egg-security] use noopen middleware
+2020-04-10 14:50:01,163 INFO 21214 [egg-security] use nosniff middleware
+2020-04-10 14:50:01,164 INFO 21214 [egg-security] use xssProtection middleware
+2020-04-10 14:50:01,164 INFO 21214 [egg-security] use xframe middleware
+2020-04-10 14:50:01,165 INFO 21214 [egg-security] use dta middleware
+2020-04-10 14:50:01,165 INFO 21214 [egg-security] compose 6 middlewares into one security middleware
+2020-04-10 14:50:01,185 INFO 21214 [egg:core] dump config after load, 7ms
+2020-04-10 14:50:01,217 INFO 21214 [egg-watcher:application] watcher start success
+2020-04-10 14:50:01,225 INFO 21214 [egg:core] dump config after ready, 6ms

@@ -1,0 +1,99 @@
+2020-04-08 22:37:56,836 INFO 67401 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 21123168ms at 2020-04-09 04:30:00.004
+2020-04-08 22:37:56,836 INFO 67401 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4923164ms at 2020-04-09 00:00:00.000
+2020-04-08 22:37:56,837 INFO 67401 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4924164ms at 2020-04-09 00:00:01.001
+2020-04-08 22:37:56,735 INFO 67404 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 22:37:56,735 INFO 67404 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 22:37:56,735 INFO 67404 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 22:45:40,779 INFO 67837 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 22:45:40,779 INFO 67837 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 22:45:40,780 INFO 67837 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 22:48:29,932 INFO 68055 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 22:48:29,933 INFO 68055 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 22:48:29,933 INFO 68055 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 22:48:30,015 INFO 68054 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20489987ms at 2020-04-09 04:30:00.002
+2020-04-08 22:48:30,015 INFO 68054 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 4289985ms at 2020-04-09 00:00:00.000
+2020-04-08 22:48:30,015 INFO 68054 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 4290985ms at 2020-04-09 00:00:01.000
+2020-04-08 22:54:52,322 INFO 68388 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 22:54:52,322 INFO 68388 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 22:54:52,322 INFO 68388 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 22:54:52,409 INFO 68386 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20107594ms at 2020-04-09 04:30:00.002
+2020-04-08 22:54:52,409 INFO 68386 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 3907591ms at 2020-04-09 00:00:00.000
+2020-04-08 22:54:52,409 INFO 68386 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3908591ms at 2020-04-09 00:00:01.000
+2020-04-08 22:56:37,293 INFO 68492 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 20002709ms at 2020-04-09 04:30:00.002
+2020-04-08 22:56:37,294 INFO 68492 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 3802707ms at 2020-04-09 00:00:00.001
+2020-04-08 22:56:37,294 INFO 68492 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3803706ms at 2020-04-09 00:00:01.000
+2020-04-08 22:56:37,213 INFO 68493 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 22:56:37,213 INFO 68493 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 22:56:37,213 INFO 68493 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 22:57:45,016 INFO 68567 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 22:57:45,016 INFO 68567 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 22:57:45,016 INFO 68567 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 22:57:45,089 INFO 68566 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 19934914ms at 2020-04-09 04:30:00.003
+2020-04-08 22:57:45,089 INFO 68566 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 3734911ms at 2020-04-09 00:00:00.000
+2020-04-08 22:57:45,089 INFO 68566 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 3735911ms at 2020-04-09 00:00:01.000
+2020-04-08 23:18:34,491 INFO 69414 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:18:34,491 INFO 69414 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:18:34,491 INFO 69414 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:18:42,019 INFO 69423 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:18:42,019 INFO 69423 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:18:42,019 INFO 69423 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:18:52,617 INFO 69435 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:18:52,617 INFO 69435 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:18:52,617 INFO 69435 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:19:11,093 INFO 69459 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:19:11,093 INFO 69459 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:19:11,093 INFO 69459 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:19:31,976 INFO 69471 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:19:31,976 INFO 69471 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:19:31,976 INFO 69471 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:24:03,425 INFO 69668 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:24:03,425 INFO 69668 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:24:03,425 INFO 69668 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:24:09,048 INFO 69685 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:24:09,048 INFO 69685 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:24:09,048 INFO 69685 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:38:10,365 INFO 70240 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:38:10,365 INFO 70240 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:38:10,365 INFO 70240 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:38:33,081 INFO 70278 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:38:33,081 INFO 70278 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:38:33,081 INFO 70278 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:38:33,166 INFO 70277 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 17486837ms at 2020-04-09 04:30:00.003
+2020-04-08 23:38:33,166 INFO 70277 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 1286834ms at 2020-04-09 00:00:00.000
+2020-04-08 23:38:33,166 INFO 70277 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 1287834ms at 2020-04-09 00:00:01.000
+2020-04-08 23:39:11,158 INFO 70311 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:39:11,158 INFO 70311 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:39:11,158 INFO 70311 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:44:06,507 INFO 70522 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:44:06,507 INFO 70522 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:44:06,507 INFO 70522 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:44:50,295 INFO 70569 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:44:50,295 INFO 70569 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:44:50,295 INFO 70569 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:47:25,717 INFO 70680 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:47:25,717 INFO 70680 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:47:25,717 INFO 70680 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:48:12,396 INFO 70709 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:48:12,396 INFO 70709 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:48:12,396 INFO 70709 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:48:26,106 INFO 70759 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:48:26,106 INFO 70759 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:48:26,106 INFO 70759 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:48:26,185 INFO 70749 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 16893818ms at 2020-04-09 04:30:00.003
+2020-04-08 23:48:26,185 INFO 70749 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 693815ms at 2020-04-09 00:00:00.000
+2020-04-08 23:48:26,185 INFO 70749 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 694815ms at 2020-04-09 00:00:01.000
+2020-04-08 23:50:21,322 INFO 70869 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:50:21,322 INFO 70869 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:50:21,322 INFO 70869 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:50:21,404 INFO 70867 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 16778599ms at 2020-04-09 04:30:00.003
+2020-04-08 23:50:21,404 INFO 70867 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 578596ms at 2020-04-09 00:00:00.000
+2020-04-08 23:50:21,404 INFO 70867 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 579596ms at 2020-04-09 00:00:01.000
+2020-04-08 23:51:13,000 INFO 70906 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2020-04-08 23:51:13,000 INFO 70906 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js
+2020-04-08 23:51:13,000 INFO 70906 [egg-schedule]: register schedule /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2020-04-08 23:59:59,987 INFO 70867 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400019ms at 2020-04-10 00:00:00.006
+2020-04-08 23:59:59,983 INFO 70906 [Job#15863615999802389227006594991] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2020-04-08 23:59:59,989 INFO 70906 [Job#15863615999802389227006594991] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 6ms
+2020-04-09 00:00:00,980 INFO 70906 [Job#15863616009792389236985742651] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2020-04-09 00:00:00,986 INFO 70906 [Job#15863616009792389236985742651] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 6ms
+2020-04-09 00:00:00,984 INFO 70867 [Timer] /Users/choizhang/copywriting/egg/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400021ms at 2020-04-10 00:00:01.005

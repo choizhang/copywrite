@@ -1,0 +1,32 @@
+2020-04-08 23:24:24,547 ERROR 69685 [-/127.0.0.1/-/8ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/choizhang/copywriting/egg/app/view/home.html
+    at ContextView.[contextView#render] (/Users/choizhang/copywriting/egg/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 69685
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:50:44,381 ERROR 70869 [-/127.0.0.1/-/4ms GET /] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/choizhang/copywriting/egg/app/view/home.html
+    at ContextView.[contextView#render] (/Users/choizhang/copywriting/egg/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 70869
+hostname: choizhangdeMacBook-Pro-2.local
+
+2020-04-08 23:58:58,565 ERROR 70906 [-/127.0.0.1/-/7ms POST /upload?_csrf=DlhIhr7NUzaoW2hR_IID7ymB] nodejs.ENOENTError: ENOENT: no such file or directory, open '/Users/choizhang/copywriting/egg/app/public/uploads/8d401f57a643ca761af4ccce93073ef9.png'
+ENOENTError: ENOENT: no such file or directory, open '/Users/choizhang/copywriting/egg/app/public/uploads/8d401f57a643ca761af4ccce93073ef9.png'
+errno: -2
+code: "ENOENT"
+syscall: "open"
+path: "/Users/choizhang/copywriting/egg/app/public/uploads/8d401f57a643ca761af4ccce93073ef9.png"
+name: "ENOENTError"
+pid: 70906
+hostname: choizhangdeMacBook-Pro-2.local
+
